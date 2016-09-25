@@ -23,51 +23,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Hello,JS.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hello,JS.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AreaAndPerimeter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AreaAndPerimeter.js">
+      <file leaf-file-name="toFixed.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/toFixed.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DistanceOverTime.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DistanceOverTime.js">
+      <file leaf-file-name="lastMonth.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lastMonth.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="85">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Distance3D.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Distance3D.js">
+      <file leaf-file-name="imperialUnits.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/imperialUnits.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CompoundInterest.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CompoundInterest.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="34">
+              <caret line="2" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -102,6 +82,9 @@
         <option value="$PROJECT_DIR$/GradsToDegrees.js" />
         <option value="$PROJECT_DIR$/gradtodegrees.js" />
         <option value="$PROJECT_DIR$/CompoundInterest.js" />
+        <option value="$PROJECT_DIR$/toFixed.js" />
+        <option value="$PROJECT_DIR$/lastMonth.js" />
+        <option value="$PROJECT_DIR$/imperialUnits.js" />
       </list>
     </option>
   </component>
@@ -112,8 +95,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="514" />
-    <option name="y" value="261" />
+    <option name="x" value="319" />
+    <option name="y" value="395" />
     <option name="width" value="1400" />
     <option name="height" value="813" />
   </component>
@@ -176,20 +159,20 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
-  <component name="RunManager" selected="Node.js.CompoundInterest.js">
-    <configuration default="false" name="DistanceOverTime.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="DistanceOverTime.js" working-dir="$PROJECT_DIR$">
-      <method />
-    </configuration>
-    <configuration default="false" name="Distance3D.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Distance3D.js" working-dir="$PROJECT_DIR$">
-      <method />
-    </configuration>
-    <configuration default="false" name="GradsToDegrees.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="GradsToDegrees.js" working-dir="$PROJECT_DIR$">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.imperialUnits.js">
     <configuration default="false" name="gradtodegrees.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="gradtodegrees.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="false" name="CompoundInterest.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="CompoundInterest.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="toFixed.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="toFixed.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="lastMonth.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="lastMonth.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="imperialUnits.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="imperialUnits.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -240,19 +223,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.DistanceOverTime.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.Distance3D.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.GradsToDegrees.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.gradtodegrees.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.CompoundInterest.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.gradtodegrees.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.CompoundInterest.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.toFixed.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.lastMonth.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.imperialUnits.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.CompoundInterest.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.gradtodegrees.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.GradsToDegrees.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.Distance3D.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.DistanceOverTime.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.imperialUnits.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.lastMonth.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.toFixed.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.CompoundInterest.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.gradtodegrees.js" />
       </list>
     </recent_temporary>
   </component>
@@ -269,15 +252,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1474670985142</updated>
-      <workItem from="1474670986719" duration="15305000" />
+      <workItem from="1474670986719" duration="18579000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15305000" />
+    <option name="totallyTimeSpent" value="18579000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="514" y="261" width="1400" height="813" extended-state="0" />
+    <frame x="319" y="395" width="1400" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16329479" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -314,34 +297,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Hello,JS.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AreaAndPerimeter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DistanceOverTime.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GradsToDegrees.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CompoundInterest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -354,6 +321,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DistanceOverTime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AreaAndPerimeter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hello,JS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toFixed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lastMonth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gradtodegrees.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -362,10 +369,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CompoundInterest.js">
+    <entry file="file://$PROJECT_DIR$/imperialUnits.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="34">
+          <caret line="2" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
           <folding />
         </state>
       </provider>
