@@ -33,11 +33,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="traingleOfStars.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="traingleOfStars.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/traingleOfStars.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="defaultParam.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/defaultParam.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="squareOFStars.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/squareOFStars.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -57,6 +77,8 @@
       <list>
         <option value="$PROJECT_DIR$/printStar.js" />
         <option value="$PROJECT_DIR$/traingleOfStars.js" />
+        <option value="$PROJECT_DIR$/defaultParam.js" />
+        <option value="$PROJECT_DIR$/squareOFStars.js" />
       </list>
     </option>
   </component>
@@ -131,11 +153,17 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
-  <component name="RunManager" selected="Node.js.traingleOfStars.js">
+  <component name="RunManager" selected="Node.js.squareOFStars.js">
     <configuration default="false" name="printStar.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="printStar.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="false" name="traingleOfStars.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="traingleOfStars.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="defaultParam.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="defaultParam.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="squareOFStars.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="squareOFStars.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -185,14 +213,18 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Node.js.printStar.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.traingleOfStars.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.defaultParam.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.squareOFStars.js" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.traingleOfStars.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.printStar.js" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.squareOFStars.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.defaultParam.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.traingleOfStars.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.printStar.js" />
       </list>
     </recent_temporary>
   </component>
@@ -206,12 +238,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475077128985</updated>
-      <workItem from="1475077130375" duration="1838000" />
+      <workItem from="1475077130375" duration="3245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1838000" />
+    <option name="totallyTimeSpent" value="3245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="233" y="193" width="1400" height="813" extended-state="1" />
@@ -263,6 +295,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defaultParam.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/squareOFStars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
         </state>
       </provider>
