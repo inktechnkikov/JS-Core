@@ -23,41 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="biggest3Nums.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/biggest3Nums.js">
+      <file leaf-file-name="movieProces.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/movieProces.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pointInRect.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pointInRect.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="oddNums.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oddNums.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="triangleOfDollars.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/triangleOfDollars.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="213">
+              <caret line="106" column="22" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -79,6 +49,7 @@
         <option value="$PROJECT_DIR$/pointInRect.js" />
         <option value="$PROJECT_DIR$/oddNums.js" />
         <option value="$PROJECT_DIR$/triangleOfDollars.js" />
+        <option value="$PROJECT_DIR$/movieProces.js" />
       </list>
     </option>
   </component>
@@ -89,8 +60,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="483" />
-    <option name="y" value="263" />
+    <option name="x" value="433" />
+    <option name="y" value="389" />
     <option name="width" value="1400" />
     <option name="height" value="813" />
   </component>
@@ -153,7 +124,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
-  <component name="RunManager" selected="Node.js.triangleOfDollars.js">
+  <component name="RunManager" selected="Node.js.movieProces.js">
     <configuration default="false" name="biggest3Nums.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="biggest3Nums.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
@@ -164,6 +135,9 @@
       <method />
     </configuration>
     <configuration default="false" name="triangleOfDollars.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="triangleOfDollars.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="movieProces.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="movieProces.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -213,18 +187,20 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.biggest3Nums.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.pointInRect.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.oddNums.js" />
       <item index="3" class="java.lang.String" itemvalue="Node.js.triangleOfDollars.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.movieProces.js" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.triangleOfDollars.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.oddNums.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.pointInRect.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.biggest3Nums.js" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.movieProces.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.triangleOfDollars.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.oddNums.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.pointInRect.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.biggest3Nums.js" />
       </list>
     </recent_temporary>
   </component>
@@ -241,15 +217,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1474811465590</updated>
-      <workItem from="1474811467331" duration="1678000" />
+      <workItem from="1474811467331" duration="4501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1678000" />
+    <option name="totallyTimeSpent" value="4501000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="483" y="263" width="1400" height="813" extended-state="0" />
+    <frame x="433" y="389" width="1400" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12427746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -286,18 +262,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pointInRect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biggest3Nums.js">
+    <entry file="file://$PROJECT_DIR$/triangleOfDollars.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -310,10 +278,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/triangleOfDollars.js">
+    <entry file="file://$PROJECT_DIR$/pointInRect.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biggest3Nums.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movieProces.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="106" column="22" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="22" />
           <folding />
         </state>
       </provider>
