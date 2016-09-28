@@ -23,11 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="printStar.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="printStar.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/printStar.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="traingleOfStars.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/traingleOfStars.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -46,6 +56,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/printStar.js" />
+        <option value="$PROJECT_DIR$/traingleOfStars.js" />
       </list>
     </option>
   </component>
@@ -56,8 +67,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="433" />
-    <option name="y" value="389" />
+    <option name="x" value="233" />
+    <option name="y" value="193" />
     <option name="width" value="1400" />
     <option name="height" value="813" />
   </component>
@@ -120,8 +131,11 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
-  <component name="RunManager" selected="Node.js.printStar.js">
+  <component name="RunManager" selected="Node.js.traingleOfStars.js">
     <configuration default="false" name="printStar.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="printStar.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="traingleOfStars.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="traingleOfStars.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -171,12 +185,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Node.js.printStar.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.traingleOfStars.js" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.printStar.js" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.traingleOfStars.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.printStar.js" />
       </list>
     </recent_temporary>
   </component>
@@ -190,15 +206,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475077128985</updated>
-      <workItem from="1475077130375" duration="424000" />
+      <workItem from="1475077130375" duration="1838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="424000" />
+    <option name="totallyTimeSpent" value="1838000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="433" y="389" width="1400" height="813" extended-state="0" />
+    <frame x="233" y="193" width="1400" height="813" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16763006" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -239,6 +255,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traingleOfStars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
           <folding />
         </state>
       </provider>
