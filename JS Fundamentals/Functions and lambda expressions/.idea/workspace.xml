@@ -23,75 +23,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="printStar.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/printStar.js">
+      <file leaf-file-name="VariablesHoldingFunction.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VariablesHoldingFunction.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="traingleOfStars.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/traingleOfStars.js">
+      <file leaf-file-name="ArrowFunction.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ArrowFunction.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
-              <folding>
-                <marker date="1475078736923" expanded="true" signature="93:238" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="defaultParam.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/defaultParam.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+            <state relative-caret-position="136">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="squareOFStars.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/squareOFStars.js">
+      <file leaf-file-name="Aggregateelement.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Aggregateelement.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding>
-                <marker date="1475079783251" expanded="true" signature="23:171" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="returnValues.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/returnValues.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="204">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="palindrome.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/palindrome.js">
+      <file leaf-file-name="WordsUppecase.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WordsUppecase.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dayOFWeek.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dayOFWeek.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -116,6 +82,12 @@
         <option value="$PROJECT_DIR$/returnValues.js" />
         <option value="$PROJECT_DIR$/palindrome.js" />
         <option value="$PROJECT_DIR$/dayOFWeek.js" />
+        <option value="$PROJECT_DIR$/VariablesHoldingFunction.js" />
+        <option value="$PROJECT_DIR$/FunctionAsParameter.js" />
+        <option value="$PROJECT_DIR$/ArrowFunction.js" />
+        <option value="$PROJECT_DIR$/simpleArr.js" />
+        <option value="$PROJECT_DIR$/Aggregateelement.js" />
+        <option value="$PROJECT_DIR$/WordsUppecase.js" />
       </list>
     </option>
   </component>
@@ -126,8 +98,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="233" />
-    <option name="y" value="193" />
+    <option name="x" value="581" />
+    <option name="y" value="306" />
     <option name="width" value="1400" />
     <option name="height" value="813" />
   </component>
@@ -190,20 +162,20 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
-  <component name="RunManager" selected="Node.js.dayOFWeek.js">
+  <component name="RunManager" selected="Node.js.WordsUppecase.js">
+    <configuration default="false" name="VariablesHoldingFunction.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="VariablesHoldingFunction.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
     <configuration default="false" name="defaultParam.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="defaultParam.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <configuration default="false" name="squareOFStars.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="squareOFStars.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="ArrowFunction.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="ArrowFunction.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <configuration default="false" name="returnValues.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="returnValues.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="simpleArr.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/Aggregateelement.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <configuration default="false" name="palindrome.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="palindrome.js" working-dir="$PROJECT_DIR$">
-      <method />
-    </configuration>
-    <configuration default="false" name="dayOFWeek.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="dayOFWeek.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="WordsUppecase.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="WordsUppecase.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -254,19 +226,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.defaultParam.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.squareOFStars.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.returnValues.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.palindrome.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.dayOFWeek.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.VariablesHoldingFunction.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.defaultParam.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.ArrowFunction.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.simpleArr.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.WordsUppecase.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.dayOFWeek.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.palindrome.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.returnValues.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.squareOFStars.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.defaultParam.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.WordsUppecase.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.simpleArr.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.ArrowFunction.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.defaultParam.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.VariablesHoldingFunction.js" />
       </list>
     </recent_temporary>
   </component>
@@ -280,22 +252,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475077128985</updated>
-      <workItem from="1475077130375" duration="5208000" />
+      <workItem from="1475077130375" duration="11130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5208000" />
+    <option name="totallyTimeSpent" value="11130000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="233" y="193" width="1400" height="813" extended-state="0" />
+    <frame x="581" y="306" width="1400" height="813" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16763006" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -325,46 +297,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/printStar.js">
+    <entry file="file://$PROJECT_DIR$/dayOFWeek.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/traingleOfStars.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
-          <folding>
-            <marker date="1475078736923" expanded="true" signature="93:238" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/defaultParam.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/squareOFStars.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <marker date="1475079783251" expanded="true" signature="23:171" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/returnValues.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="357">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -377,10 +313,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dayOFWeek.js">
+    <entry file="file://$PROJECT_DIR$/FunctionAsParameter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traingleOfStars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VariablesHoldingFunction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/defaultParam.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrowFunction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/squareOFStars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/returnValues.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/printStar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aggregateelement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordsUppecase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
           <folding />
         </state>
       </provider>
