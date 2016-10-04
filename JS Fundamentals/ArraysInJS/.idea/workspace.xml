@@ -43,11 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="capitals.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="capitals.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/capitals.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="12" column="75" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EvePostionElements.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EvePostionElements.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -68,6 +78,7 @@
         <option value="$PROJECT_DIR$/simpleArr.js" />
         <option value="$PROJECT_DIR$/SumFirstAndLastElements.js" />
         <option value="$PROJECT_DIR$/capitals.js" />
+        <option value="$PROJECT_DIR$/EvePostionElements.js" />
       </list>
     </option>
   </component>
@@ -142,7 +153,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
-  <component name="RunManager" selected="Node.js.capitals.js">
+  <component name="RunManager" selected="Node.js.EvePostionElements.js">
     <configuration default="false" name="simpleArr.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="simpleArr.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
@@ -150,6 +161,9 @@
       <method />
     </configuration>
     <configuration default="false" name="capitals.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="capitals.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="EvePostionElements.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="EvePostionElements.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -199,16 +213,18 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Node.js.simpleArr.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.SumFirstAndLastElements.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.capitals.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.EvePostionElements.js" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.capitals.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.SumFirstAndLastElements.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.simpleArr.js" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.EvePostionElements.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.capitals.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.SumFirstAndLastElements.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.simpleArr.js" />
       </list>
     </recent_temporary>
   </component>
@@ -222,12 +238,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475600865277</updated>
-      <workItem from="1475600866843" duration="2227000" />
+      <workItem from="1475600866843" duration="4262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2227000" />
+    <option name="totallyTimeSpent" value="4262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="422" y="189" width="1400" height="813" extended-state="0" />
@@ -285,8 +301,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/capitals.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="12" column="75" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EvePostionElements.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
           <folding />
         </state>
       </provider>
