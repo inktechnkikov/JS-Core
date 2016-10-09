@@ -10,4 +10,6 @@ phonebook.set("Sahil Jai",100);
 for(let [j,g] of phonebook){
     console.log(j + '->' + g);
 }
+console.log(phonebook.has('Stamat'));
+console.log(phonebook.get('Stamat'));
 
