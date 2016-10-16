@@ -6,7 +6,7 @@ function negativepos(arr) {
             res.unshift(n);
         }
         else {
-            res.unshift(n);
+            res.shift(n);
         }
     }
     console.log(res.join('\n'));
