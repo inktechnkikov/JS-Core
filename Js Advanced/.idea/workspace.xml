@@ -33,11 +33,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="callBackFunctionFromObject.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="callBackFunctionFromObject.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FunctionAndFunctionExpr/callBackFunctionFromObject.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="callBackfunctionFromValue.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FunctionAndFunctionExpr/callBackfunctionFromValue.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -57,6 +67,7 @@
       <list>
         <option value="$PROJECT_DIR$/FunctionAndFunctionExpr/FunctionAndFunctionExpressions.js" />
         <option value="$PROJECT_DIR$/FunctionAndFunctionExpr/callBackFunction.js" />
+        <option value="$PROJECT_DIR$/FunctionAndFunctionExpr/callBackfunctionFromValue.js" />
       </list>
     </option>
   </component>
@@ -134,11 +145,14 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
-  <component name="RunManager" selected="Node.js.callBackFunction.js">
+  <component name="RunManager" selected="Node.js.callBackfunctionFromValue.js">
     <configuration default="false" name="FunctionAndFunctionExpressions.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="FunctionAndFunctionExpressions.js" working-dir="$PROJECT_DIR$/FunctionAndFunctionExpr">
       <method />
     </configuration>
     <configuration default="false" name="callBackFunction.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/FunctionAndFunctionExpr/callBackFunctionFromObject.js" working-dir="$PROJECT_DIR$/FunctionAndFunctionExpr">
+      <method />
+    </configuration>
+    <configuration default="false" name="callBackfunctionFromValue.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="callBackfunctionFromValue.js" working-dir="$PROJECT_DIR$/FunctionAndFunctionExpr">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -194,14 +208,16 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Node.js.FunctionAndFunctionExpressions.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.callBackFunction.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.callBackfunctionFromValue.js" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.callBackFunction.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.FunctionAndFunctionExpressions.js" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.callBackfunctionFromValue.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.callBackFunction.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.FunctionAndFunctionExpressions.js" />
       </list>
     </recent_temporary>
   </component>
@@ -219,15 +235,15 @@
       <option name="presentableId" value="Default" />
       <updated>1476628622032</updated>
       <workItem from="1476628624053" duration="1186000" />
-      <workItem from="1476630633763" duration="2809000" />
+      <workItem from="1476630633763" duration="3204000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3995000" />
+    <option name="totallyTimeSpent" value="4390000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="634" y="225" width="1400" height="870" extended-state="0" />
+    <frame x="634" y="225" width="1400" height="870" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14306359" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -284,6 +300,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunctionAndFunctionExpr/callBackfunctionFromValue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding />
         </state>
       </provider>
