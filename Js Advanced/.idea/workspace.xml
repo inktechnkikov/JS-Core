@@ -23,31 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FunctionAndFunctionExpressions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FunctionAndFunctionExpr/FunctionAndFunctionExpressions.js">
+      <file leaf-file-name="simpleTest.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DomBomTraverseTheDoom/simpleTest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="callBackFunctionFromObject.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FunctionAndFunctionExpr/callBackFunctionFromObject.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="callBackfunctionFromValue.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FunctionAndFunctionExpr/callBackfunctionFromValue.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="272">
+              <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -59,6 +39,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -68,6 +49,8 @@
         <option value="$PROJECT_DIR$/FunctionAndFunctionExpr/FunctionAndFunctionExpressions.js" />
         <option value="$PROJECT_DIR$/FunctionAndFunctionExpr/callBackFunction.js" />
         <option value="$PROJECT_DIR$/FunctionAndFunctionExpr/callBackfunctionFromValue.js" />
+        <option value="$PROJECT_DIR$/FunctionAndFunctionExpr/ArrayWithFunctions.js" />
+        <option value="$PROJECT_DIR$/DomBomTraverseTheDoom/simpleTest.html" />
       </list>
     </option>
   </component>
@@ -78,8 +61,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="634" />
-    <option name="y" value="225" />
+    <option name="x" value="677" />
+    <option name="y" value="434" />
     <option name="width" value="1400" />
     <option name="height" value="870" />
   </component>
@@ -125,15 +108,25 @@
               <option name="myItemId" value="Js Advanced" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FunctionAndFunctionExpr" />
+              <option name="myItemId" value="Js Advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Js Advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DomBomTraverseTheDoom" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,8 +137,10 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
-  <component name="RunManager" selected="Node.js.callBackfunctionFromValue.js">
+  <component name="RunManager" selected="JavaScript Debug.simpleTest.html">
     <configuration default="false" name="FunctionAndFunctionExpressions.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="FunctionAndFunctionExpressions.js" working-dir="$PROJECT_DIR$/FunctionAndFunctionExpr">
       <method />
     </configuration>
@@ -153,6 +148,12 @@
       <method />
     </configuration>
     <configuration default="false" name="callBackfunctionFromValue.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="callBackfunctionFromValue.js" working-dir="$PROJECT_DIR$/FunctionAndFunctionExpr">
+      <method />
+    </configuration>
+    <configuration default="false" name="ArrayWithFunctions.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="ArrayWithFunctions.js" working-dir="$PROJECT_DIR$/FunctionAndFunctionExpr">
+      <method />
+    </configuration>
+    <configuration default="false" name="simpleTest.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Js Advanced/DomBomTraverseTheDoom/simpleTest.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -208,16 +209,20 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.FunctionAndFunctionExpressions.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.callBackFunction.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.callBackfunctionFromValue.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.ArrayWithFunctions.js" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.simpleTest.html" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.callBackfunctionFromValue.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.callBackFunction.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.FunctionAndFunctionExpressions.js" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.simpleTest.html" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.ArrayWithFunctions.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.callBackfunctionFromValue.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.callBackFunction.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.FunctionAndFunctionExpressions.js" />
       </list>
     </recent_temporary>
   </component>
@@ -235,22 +240,23 @@
       <option name="presentableId" value="Default" />
       <updated>1476628622032</updated>
       <workItem from="1476628624053" duration="1186000" />
-      <workItem from="1476630633763" duration="3204000" />
+      <workItem from="1476630633763" duration="5436000" />
+      <workItem from="1476791768649" duration="5051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4390000" />
+    <option name="totallyTimeSpent" value="11673000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="634" y="225" width="1400" height="870" extended-state="1" />
+    <frame x="677" y="434" width="1400" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14306359" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -290,6 +296,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FunctionAndFunctionExpr/FunctionAndFunctionExpressions.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunctionAndFunctionExpr/FunctionAndFunctionExpressions.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding />
@@ -304,10 +318,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FunctionAndFunctionExpr/ArrayWithFunctions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FunctionAndFunctionExpr/callBackfunctionFromValue.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DomBomTraverseTheDoom/simpleTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
           <folding />
         </state>
       </provider>
