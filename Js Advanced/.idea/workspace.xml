@@ -23,11 +23,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CollectList.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CollectList.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DomBomTraverseTheDoom/CollectList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="5" selection-start-line="18" selection-start-column="3" selection-end-line="24" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListOfTitem.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DomBomTraverseTheDoom/ListOfTitem.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateElements.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DomBomTraverseTheDoom/CreateElements.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ColorizeTableRow.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DomBomTraverseTheDoom/ColorizeTableRow.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="5" selection-start-line="16" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -54,6 +84,9 @@
         <option value="$PROJECT_DIR$/DomBomTraverseTheDoom/ShowInfo.html" />
         <option value="$PROJECT_DIR$/DomBomTraverseTheDoom/ShowMore.html" />
         <option value="$PROJECT_DIR$/DomBomTraverseTheDoom/CollectList.html" />
+        <option value="$PROJECT_DIR$/DomBomTraverseTheDoom/ColorizeTableRow.html" />
+        <option value="$PROJECT_DIR$/DomBomTraverseTheDoom/ListOfTitem.html" />
+        <option value="$PROJECT_DIR$/DomBomTraverseTheDoom/CreateElements.html" />
       </list>
     </option>
   </component>
@@ -64,8 +97,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="726" />
-    <option name="y" value="528" />
+    <option name="x" value="1058" />
+    <option name="y" value="238" />
     <option name="width" value="1400" />
     <option name="height" value="870" />
   </component>
@@ -143,20 +176,20 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.ShowMore.html">
-    <configuration default="false" name="callBackfunctionFromValue.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="callBackfunctionFromValue.js" working-dir="$PROJECT_DIR$/FunctionAndFunctionExpr">
-      <method />
-    </configuration>
-    <configuration default="false" name="ArrayWithFunctions.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="ArrayWithFunctions.js" working-dir="$PROJECT_DIR$/FunctionAndFunctionExpr">
-      <method />
-    </configuration>
-    <configuration default="false" name="simpleTest.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Js Advanced/DomBomTraverseTheDoom/simpleTest.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.CreateElements.html">
     <configuration default="false" name="ShowInfo.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Js Advanced/DomBomTraverseTheDoom/ShowInfo.html">
       <method />
     </configuration>
     <configuration default="false" name="ShowMore.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Js Advanced/DomBomTraverseTheDoom/ShowMore.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="CollectList.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Js Advanced/DomBomTraverseTheDoom/CollectList.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="ColorizeTableRow.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Js Advanced/DomBomTraverseTheDoom/ColorizeTableRow.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="CreateElements.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Js Advanced/DomBomTraverseTheDoom/CreateElements.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -213,19 +246,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.callBackfunctionFromValue.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.ArrayWithFunctions.js" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.simpleTest.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.ShowInfo.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.ShowMore.html" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.ShowInfo.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.ShowMore.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.CollectList.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.ColorizeTableRow.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.CreateElements.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.ShowMore.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.ShowInfo.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.simpleTest.html" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.ArrayWithFunctions.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.callBackfunctionFromValue.js" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.CreateElements.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.ColorizeTableRow.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.CollectList.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.ShowMore.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.ShowInfo.html" />
       </list>
     </recent_temporary>
   </component>
@@ -247,15 +280,15 @@
       <workItem from="1476791768649" duration="7447000" />
       <workItem from="1476897298105" duration="595000" />
       <workItem from="1477063787535" duration="2337000" />
-      <workItem from="1477066563804" duration="2244000" />
+      <workItem from="1477066563804" duration="7295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19245000" />
+    <option name="totallyTimeSpent" value="24296000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="726" y="528" width="1400" height="870" extended-state="0" />
+    <frame x="1058" y="238" width="1400" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14306359" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -384,10 +417,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DomBomTraverseTheDoom/ColorizeTableRow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="5" selection-start-line="16" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DomBomTraverseTheDoom/CollectList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="5" selection-start-line="18" selection-start-column="3" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DomBomTraverseTheDoom/ListOfTitem.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DomBomTraverseTheDoom/CreateElements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CreateElements</title>
+</head>
+<body>
+    <button type="button" onclick="createEl">Create it</button>
+    <script>
+        function createEl() {
+            let list = document.createElement('ul');
+            let user = document.createElement('li');
+            user.textContent = "Stamat";
+            list.appendChild(user);
+            let user2 = document.createElement('li');
+            user2.innerHTML = 'Maria';
+            list.appendChild(user2);
+            document.body.appendChild(list);
+        }
+    </script>
+</body>
+</html>
