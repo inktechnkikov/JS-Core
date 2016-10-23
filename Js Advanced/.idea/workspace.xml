@@ -150,20 +150,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Js Advanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Js Advanced" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DomBomTraverseTheDoom" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -285,15 +271,15 @@
       <workItem from="1476897298105" duration="595000" />
       <workItem from="1477063787535" duration="2337000" />
       <workItem from="1477066563804" duration="13936000" />
-      <workItem from="1477237347811" duration="81000" />
+      <workItem from="1477237347811" duration="411000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31018000" />
+    <option name="totallyTimeSpent" value="31348000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="231" y="127" width="1400" height="817" extended-state="1" />
+    <frame x="231" y="127" width="1400" height="817" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14306359" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
