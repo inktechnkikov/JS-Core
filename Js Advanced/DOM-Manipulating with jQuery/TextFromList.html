@@ -3,14 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>TextFromList</title>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
-            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="jquery-3.1.1.min.js"></script>
 </head>
 <body>
+    <ul id="items">
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+    </ul>
+    <button id="show">Extract Text</button>
+    <div id="result"></div>
    <script>
-       $('document').ready(function () {
-           $('<div>Helloworld</div>').appendTo($('body'));
-       });
+    $(document).ready(function () {
+        $('#show').click(extractText);
+    });
+    function extractText() {
+        let joined = $('#items li').toArray().map(li => li.textContent).join(', ');
+        $('#result').text(joined)
+    }
+
+
+
    </script>
 </body>
 </html>
