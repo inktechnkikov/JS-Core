@@ -33,11 +33,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CountriesTable.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CountriesTable.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CountriesTable.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="61" column="15" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
+            <state relative-caret-position="296">
+              <caret line="40" column="9" selection-start-line="30" selection-start-column="6" selection-end-line="40" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkButtons.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LinkButtons.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="44" column="5" selection-start-line="38" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectableTowns.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SelectableTowns.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -70,6 +90,8 @@
         <option value="$PROJECT_DIR$/TextFromList.html" />
         <option value="$PROJECT_DIR$/SearchInList.html" />
         <option value="$PROJECT_DIR$/CountriesTable.html" />
+        <option value="$PROJECT_DIR$/LinkButtons.html" />
+        <option value="$PROJECT_DIR$/SelectableTowns.html" />
       </list>
     </option>
   </component>
@@ -145,20 +167,20 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.CountriesTable.html">
+  <component name="RunManager" selected="JavaScript Debug.SelectableTowns.html">
     <configuration default="false" name="TextFromList.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DOM-Manipulating with jQuery/TextFromList.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="Example1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DOM-Manipulating with jQuery/Example1.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="Example2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DOM-Manipulating with jQuery/Example2.html">
       <method />
     </configuration>
     <configuration default="false" name="SearchInList.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DOM-Manipulating with jQuery/SearchInList.html">
       <method />
     </configuration>
     <configuration default="false" name="CountriesTable.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DOM-Manipulating with jQuery/CountriesTable.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="LinkButtons.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DOM-Manipulating with jQuery/LinkButtons.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="SelectableTowns.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DOM-Manipulating with jQuery/SelectableTowns.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -210,18 +232,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.TextFromList.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Example1.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Example2.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.SearchInList.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.CountriesTable.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.SearchInList.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.CountriesTable.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.LinkButtons.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.SelectableTowns.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.CountriesTable.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.SearchInList.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.TextFromList.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Example2.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Example1.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.SelectableTowns.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.LinkButtons.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.CountriesTable.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.SearchInList.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.TextFromList.html" />
       </list>
     </recent_temporary>
   </component>
@@ -235,12 +257,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1477237787299</updated>
-      <workItem from="1477237788927" duration="18771000" />
+      <workItem from="1477237788927" duration="19850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18771000" />
+    <option name="totallyTimeSpent" value="19850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="126" y="173" width="1400" height="817" extended-state="0" />
@@ -304,6 +326,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CountriesTable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="40" column="9" selection-start-line="30" selection-start-column="6" selection-end-line="40" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TextFromList.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -312,10 +342,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CountriesTable.html">
+    <entry file="file://$PROJECT_DIR$/LinkButtons.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="61" column="15" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
+        <state relative-caret-position="500">
+          <caret line="44" column="5" selection-start-line="38" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SelectableTowns.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding />
         </state>
       </provider>
