@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script src="../scripts/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+    <button type="button" id="btn1">Button1</button>
+    <button type="button" id="btn2">Button2</button>
+    <script>
+        let btn1 = $('#btn1');
+        let btn2 = $('#btn2');
+        btn1.on('click', function () {
+            alert('button1 is press');
+        });
+        btn2.on('click',function () {
+          alert('button2 is pressed');
+        });
+        let btn3 = $('<button>').text('Button 3');
+       btn3.appendTo(document.body);
+        btn3.on('click',function () {
+            alert('Button 3 was pressed');
+        });
+    </script>
+</body>
+</html>
