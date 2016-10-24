@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search in List</title>
+    <script src="jquery-3.1.1.min.js"></script>
+</head>
+<body>
+    <ul id="towns">
+        <li>Sofia</li>
+        <li>Pleven</li>
+        <li>Varna</li>
+        <li>Plovdiv</li>
+    </ul>
+    <input type="text" id="searchText"/>
+    <button type="button" onclick="Search()">Search</button>
+    <div id="result"></div>
+    <script>
+        function Search() {
+            let ulItems = $('#searchText').val();
+            let count = 0;
+            $('#towns li').each(function () {
+                if ($(this).text().indexOf(ulItems) != -1) {
+                    $(this).css('font-weight', 'bold');
+                    count++;
+                }
+                else{
+                    $(this).css('font-weight', '');
+                }
+            });
+            $('#result').text(count + ' matches founded.');
+            $('#searchText').val('');
+        }
+
+    </script>
+</body>
+</html>

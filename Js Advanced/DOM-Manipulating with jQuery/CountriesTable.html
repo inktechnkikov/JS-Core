@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Countries Table</title>
+    <style>
+        td, th { background: #DDD; padding: 5px 10px }
+        input[type='text'] { width: 60px }
+    </style>
+    <script src="jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<table id="countriesTable">
+    <tr><th>Country</th><th>Capital</th><th>Action</th></tr>
+    <tr><td><input type="text" id="newCountryText" /></td>
+        <td><input type="text" id="newCapitalText" /></td>
+        <td><a href="#" id="createLink">[Create]</a></td>
+    </tr>
+</table>
+<script>$(() => initializeTable())</script>
+<script>
+    function initializeTable() {
+        $('#createLink').click(function () {
+           let counrtyName = $('#newCountryText').val();
+            let capital = $('#newCapitalText').val();
+            appaneCountryToTable(counrtyName,capital);
+        });
+        appaneCountryToTable('Bulgaria', 'Sofia');
+        appaneCountryToTable('Germany', 'Berlin');
+        appaneCountryToTable('Russia', 'Moscow');
+        function appaneCountryToTable(countryName,capital) {
+        let tr = $('<tr>')
+                .append($("<td>").text(countryName))
+                .append($("<td>").text(capital));
+                let upButton = $("<a href='#'>[Up]</a>").click(moveUp);
+                let dellButton = $("<a href='#'>[Delete]</a>").click(deleteItem);
+                let downButton = $("<a href='#'>[Down]</a>").click(moveDown);
+                tr.append($("<td>").append(upButton).append(" ").append(downButton).append(" ").append(dellButton));
+        $('#countriesTable').append(tr);
+           // fixRows();
+        }
+        function deleteItem() {
+         let row = $(this).parent().parent();
+            row.fadeOut(function () {
+                row.remove();
+            });
+            fixRows()
+        }
+        function moveUp() {
+            let row = $(this).parent().parent();
+        row.fadeOut(function () {
+            row.prev().insertAfter(row);
+            row.fadeIn();
+        });
+            fixRows()
+        }
+        function moveDown() {
+            let row = $(this).parent().parent();
+            row.fadeOut(function () {
+                row.next().insertBefore(row);
+                row.fadeIn();
+            });
+            fixRows()
+        }
+        function fixRows() {
+            let rows = $("#countriesTable tr").toArray();
+            $(rows).css('color', 'black');
+            $(rows[2].css('color','red'));
+            $(rows[rows.length-1]).css('color','green');
+        }
+    }
+</script>
+</body>
+</html>
