@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Substraction</title>
+    <script src="jquery-3.1.1.min.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <input type="number" id="firstNumber" value="13.33" disabled>
+        <input type="number" id="secondNumber" value="22.18" disabled>
+        <div id="result" ></div>
+    </div>
+    <script>
+        window.onload = function () {
+            substract();
+        };
+     function substract() {
+         let num1 = $('#firstNumber');
+         let num2 = $('#secondNumber');
+         let resultFromDiv = $('#result');
+         let result = (num1.val()) - (num2.val());
+         resultFromDiv[0].textContent=result;
+     }
+    </script>
+</body>
+</html>
