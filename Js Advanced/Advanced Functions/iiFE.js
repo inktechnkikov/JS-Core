@@ -4,3 +4,6 @@ let iife = function () {
     let n2 = 0.56;
     console.log(n * n2);
 }();
+let iife2 = (function () {
+   console.log('im another iife');
+})();
