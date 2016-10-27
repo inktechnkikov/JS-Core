@@ -23,11 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Studebt.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Studebt.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Object Composition/Studebt.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rectangle.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Object Composition/Rectangle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -70,6 +80,7 @@
         <option value="$PROJECT_DIR$/Advanced Functions/commandProcessor.js" />
         <option value="$PROJECT_DIR$/Advanced Functions/maxElement.js" />
         <option value="$PROJECT_DIR$/Object Composition/Studebt.js" />
+        <option value="$PROJECT_DIR$/Object Composition/Rectangle.js" />
       </list>
     </option>
   </component>
@@ -80,8 +91,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="210" />
-    <option name="y" value="266" />
+    <option name="x" value="361" />
+    <option name="y" value="251" />
     <option name="width" value="1400" />
     <option name="height" value="814" />
   </component>
@@ -159,11 +170,8 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
-  <component name="RunManager" selected="Node.js.Studebt.js">
+  <component name="RunManager" selected="Node.js.Rectangle.js">
     <configuration default="false" name="Closurers.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Closurers.js" working-dir="$PROJECT_DIR$/Advanced Functions">
-      <method />
-    </configuration>
-    <configuration default="false" name="commandProcessor.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="commandProcessor.js" working-dir="$PROJECT_DIR$/Advanced Functions">
       <method />
     </configuration>
     <configuration default="false" name="maxElement.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="maxElement.js" working-dir="$PROJECT_DIR$/Advanced Functions">
@@ -173,6 +181,9 @@
       <method />
     </configuration>
     <configuration default="false" name="Studebt.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Studebt.js" working-dir="$PROJECT_DIR$/Object Composition">
+      <method />
+    </configuration>
+    <configuration default="false" name="Rectangle.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Rectangle.js" working-dir="$PROJECT_DIR$/Object Composition">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -230,18 +241,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.Closurers.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.commandProcessor.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.maxElement.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.iifeFunction.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.Studebt.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.maxElement.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.iifeFunction.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.Studebt.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.Rectangle.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.Studebt.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.iifeFunction.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.Closurers.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.maxElement.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.commandProcessor.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.Rectangle.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.Studebt.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.iifeFunction.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.Closurers.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.maxElement.js" />
       </list>
     </recent_temporary>
   </component>
@@ -269,22 +280,22 @@
       <workItem from="1477398325775" duration="54000" />
       <workItem from="1477399104272" duration="12000000" />
       <workItem from="1477559879718" duration="124000" />
-      <workItem from="1477560598657" duration="73000" />
+      <workItem from="1477560598657" duration="1447000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50913000" />
+    <option name="totallyTimeSpent" value="52287000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="210" y="266" width="1400" height="814" extended-state="0" />
+    <frame x="361" y="251" width="1400" height="814" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12861271" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -663,6 +674,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Object Composition/Rectangle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
       </provider>
