@@ -6,6 +6,6 @@ let module2 = (function () {
         valueOfCounter: () => counter,
     };
 })();
-console.log(module2.valueOfCounter());
 console.log(module2.increased(2));
-console.log(module2.decresed(10));
+console.log(module2.decresed(2));
+console.log(module2.valueOfCounter());
