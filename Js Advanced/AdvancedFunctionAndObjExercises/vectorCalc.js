@@ -1,18 +1,18 @@
 let vectorCalculator = (function () {
-   add: function add(vecA,vecB) {
+   function add(vecA,vecB) {
        return [vecA[0] + vecB[0],vecA[1] + vecB[1]];
     }
 
-    multiply: function multiply(vecA,scalar) {
+    function multiply(vecA,scalar) {
         return [vecA[0] * scalar,vecA[1] * scalar];
     }
-    length: function length(vector) {
+    function length(vector) {
         return Math.sqrt((vector[0] * vector[0]) + (vector[1] * vector[1]));
     }
-    dot:function dot(vecA,vecB) {
+    function dot(vecA,vecB) {
         return vecA[0] * vecB[0] + vecA[1] * vecB[1];
     }
-    cross:function cross(vecA,vecB) {
+    function cross(vecA,vecB) {
         return (vecA[0] * vecB[1]) - (vecA[1] * vecB[0]);
     }
     return{add,multiply,length,dot,cross};
