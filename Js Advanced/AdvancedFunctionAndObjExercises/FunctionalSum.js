@@ -6,4 +6,4 @@ let solved =  (function () {
         return calc;
     }
 })();
-console.log(solved(10)(2).toString());
+console.log(solved(10)(2)(-5).toString());
