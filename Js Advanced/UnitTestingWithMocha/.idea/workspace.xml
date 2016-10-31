@@ -23,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sum.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sum.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sum.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sum-tests.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sum-tests.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/sum-tests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+            <state relative-caret-position="153">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -48,6 +48,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/sum.js" />
         <option value="$PROJECT_DIR$/test/sum-tests.js" />
       </list>
     </option>
@@ -110,30 +111,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UnitTestingWithMocha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UnitTestingWithMocha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -141,7 +128,69 @@
     <property name="nodejs.mocha.mocha_node_package_dir" value="C:\Users\inkte\AppData\Roaming\npm\node_modules\mocha" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
-  <component name="RunManager" selected="Mocha.mochatest">
+  <component name="RunManager" selected="Mocha.test\sum-tests.js">
+    <configuration default="false" name="sum(arr).should return 0 for [pesho]" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/sum-tests.js</test-file>
+      <test-names>
+        <name value="sum(arr)" />
+        <name value="should return 0 for [pesho]" />
+      </test-names>
+      <method />
+    </configuration>
+    <configuration default="false" name="sum(arr).should retun 100 for[20,20,20,40]" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/sum-tests.js</test-file>
+      <test-names>
+        <name value="sum(arr)" />
+        <name value="should retun 100 for[20,20,20,40]" />
+      </test-names>
+      <method />
+    </configuration>
+    <configuration default="false" name="sum.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="sum.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="sum(arr)" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/test/sum-tests.js</test-file>
+      <test-names>
+        <name value="sum(arr)" />
+      </test-names>
+      <method />
+    </configuration>
+    <configuration default="false" name="test\sum-tests.js" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/test/sum-tests.js</test-file>
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -208,9 +257,23 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="1">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Mocha.mochatest" />
+      <item index="1" class="java.lang.String" itemvalue="Mocha.sum(arr).should return 0 for [pesho]" />
+      <item index="2" class="java.lang.String" itemvalue="Mocha.sum(arr).should retun 100 for[20,20,20,40]" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.sum.js" />
+      <item index="4" class="java.lang.String" itemvalue="Mocha.sum(arr)" />
+      <item index="5" class="java.lang.String" itemvalue="Mocha.test\sum-tests.js" />
     </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Mocha.test\sum-tests.js" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.sum(arr).should retun 100 for[20,20,20,40]" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.sum(arr)" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.sum.js" />
+        <item index="4" class="java.lang.String" itemvalue="Mocha.sum(arr).should return 0 for [pesho]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -224,44 +287,45 @@
       <updated>1477918990332</updated>
       <workItem from="1477918992872" duration="855000" />
       <workItem from="1477919876064" duration="150000" />
-      <workItem from="1477920184698" duration="1948000" />
+      <workItem from="1477920184698" duration="3115000" />
+      <workItem from="1477926633596" duration="2264000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="mochatest - 2016.10.31 at 15h 18m 33s.xml">
+    <history-entry file="mochatest - 2016.10.31 at 16h 11m 02s.xml">
       <configuration name="mochatest" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="mochatest - 2016.10.31 at 15h 44m 10s.xml">
+    <history-entry file="mochatest - 2016.10.31 at 16h 11m 26s.xml">
       <configuration name="mochatest" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="mochatest - 2016.10.31 at 15h 51m 18s.xml">
-      <configuration name="mochatest" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="sum(arr) - 2016.10.31 at 18h 02m 38s.xml">
+      <configuration name="sum(arr)" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="mochatest - 2016.10.31 at 16h 04m 02s.xml">
-      <configuration name="mochatest" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="sum(arr)_should_retun_100_for[20,20,20,40] - 2016.10.31 at 17h 58m 26s.xml">
+      <configuration name="sum(arr).should retun 100 for[20,20,20,40]" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="mochatest - 2016.10.31 at 16h 04m 27s.xml">
-      <configuration name="mochatest" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="sum(arr)_should_retun_100_for[20,20,20,40] - 2016.10.31 at 17h 58m 33s.xml">
+      <configuration name="sum(arr).should retun 100 for[20,20,20,40]" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="mochatest - 2016.10.31 at 16h 04m 47s.xml">
-      <configuration name="mochatest" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="sum(arr)_should_retun_100_for[20,20,20,40] - 2016.10.31 at 18h 05m 10s.xml">
+      <configuration name="sum(arr).should retun 100 for[20,20,20,40]" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="mochatest - 2016.10.31 at 16h 04m 58s.xml">
-      <configuration name="mochatest" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="sum(arr)_should_return_0_for_[pesho] - 2016.10.31 at 16h 12m 57s.xml">
+      <configuration name="sum(arr).should return 0 for [pesho]" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_sum-tests_js - 2016.10.31 at 15h 14m 06s.xml">
-      <configuration name="test\sum-tests.js" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="sum(arr)_should_return_0_for_[pesho] - 2016.10.31 at 17h 10m 06s.xml">
+      <configuration name="sum(arr).should return 0 for [pesho]" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_sum-tests_js - 2016.10.31 at 15h 14m 15s.xml">
-      <configuration name="test\sum-tests.js" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="sum(arr)_should_return_0_for_[pesho] - 2016.10.31 at 17h 55m 19s.xml">
+      <configuration name="sum(arr).should return 0 for [pesho]" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="test_sum-tests_js - 2016.10.31 at 15h 17m 00s.xml">
+    <history-entry file="test_sum-tests_js - 2016.10.31 at 18h 05m 35s.xml">
       <configuration name="test\sum-tests.js" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2953000" />
+    <option name="totallyTimeSpent" value="6384000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -273,15 +337,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1320" height="780" extended-state="1" />
+    <frame x="-8" y="-8" width="1320" height="780" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17628706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1099844" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -291,6 +354,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -310,6 +374,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/sum-tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sum.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -342,18 +422,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sum.js">
+    <entry file="file://$PROJECT_DIR$/test/sum-tests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/sum-tests.js">
+    <entry file="file://$PROJECT_DIR$/sum.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
