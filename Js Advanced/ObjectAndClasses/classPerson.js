@@ -12,3 +12,6 @@ let person2 = new Person();
 console.log(person);
 console.log(person1);
 console.log(person2);
+person.age = 30;
+console.log(person);
+console.log(person.age);
