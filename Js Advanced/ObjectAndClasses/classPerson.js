@@ -4,10 +4,11 @@ class Person {
         this.age = age;
         this.weight = weight;
         this.height = height;
+        this.gender = sex;
     }
 }
-let person = new Person("Pesho",27,90,1.80);
-let person1 = new Person("Stamat",25,98);
+let person = new Person("Pesho",27,90,1.80,'male');
+let person1 = new Person("Stamat",25,98,'male');
 let person2 = new Person();
 console.log(person);
 console.log(person1);
