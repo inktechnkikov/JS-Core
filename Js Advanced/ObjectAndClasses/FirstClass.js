@@ -6,4 +6,7 @@ class Rectangle {
     }
 }
 let r = new Rectangle(20,30,'red');
-console.log(r);
+let r2 = new Rectangle(10,10,'blue');
+let r3 = new Rectangle(0.2,0.5,'white');
+let rectArr = [r,r2,r3];
+console.log(rectArr);
