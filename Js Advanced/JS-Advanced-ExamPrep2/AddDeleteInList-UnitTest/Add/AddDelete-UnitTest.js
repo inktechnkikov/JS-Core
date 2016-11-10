@@ -18,9 +18,9 @@ function produce(){
     };
 };
 describe('list',function () {
-   // let list = {};
+  //  let list = {};//
   //  beforeEach(function () {
-   //     list = produce();
+  //    list = produce();
   //  });
     it('constructor must produce object with correct functions', function () {
         expect(typeof(list.add)).to.equal('function');
