@@ -16,12 +16,12 @@ function produce(){
             return data.join(", ");
         }
     };
-};
+};//
 describe('list',function () {
-  //  let list = {};//
-  //  beforeEach(function () {
-  //    list = produce();
-  //  });
+  // let list = {};//
+  // beforeEach(function () {
+  //   list = produce();
+  // });
     it('constructor must produce object with correct functions', function () {
         expect(typeof(list.add)).to.equal('function');
         expect(typeof(list.delete)).to.equal('function');
@@ -90,5 +90,14 @@ describe('list',function () {
             list.delete(4);
             expect(list.toString()).to.equal('1, 12, 14, 45', 'Input deleted the correct elements');
         });
+        it('if input is out of range in list',function () {
+            list.add(1);
+            list.add('momo');
+            list.add(20);
+            list.add('jedai');
+            list.delete(5);
+           expect(list.delete(5)).to.equal(undefined);
+            expect(list.toString()).to.equal('1, momo, 20, jedai');
+        })
     });
 });
