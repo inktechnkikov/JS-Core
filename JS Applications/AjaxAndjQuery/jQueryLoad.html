@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQueryLoad</title>
+    <script src="../jQuery/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+    <div id="text">
+        <h1>AJAX jQuery.load()</h1>
+        <button type="button" id="load" onclick="load()">Load Title</button>
+    </div>
+<script>
+    function load() {
+        $('#text').load("text.html");
+    }
+  // $('#load').on('click',function () {
+  //     $('#text').load("text.html");
+  // })
+</script>
+</body>
+</html>
