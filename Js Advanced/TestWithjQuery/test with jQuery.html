@@ -6,11 +6,46 @@
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 </head>
 <body>
-    <div id="info"></div>
-    <div id="second"></div>
+<div>
+    <p>Sum numbers</p>
+    <input type="number" id="num1"/> +
+    <input type="number" id="num2"/> =
+    <input type="number" id="sum"/><br>
+    <button type="button" id="calcSum">Click</button>
+</div>
+<div>
+    <p>Substract numbers</p>
+    <input type="number" id="numSubstr"/> -
+    <input type="number" id="numSubstr1"/> =
+    <input type="number" id="sumSubst"/><br>
+    <button type="button" id="calcSubst">Click</button>
+</div>
+<div>
+    <p>MultipleNumbers</p>
+    <input type="number" id="numMulti"/> *
+    <input type="number" id="numMulti1"/> =
+    <input type="number" id="sumMultipli"/><br>
+    <button type="button" id="sumMulti">Click</button>
+</div>
 <script>
-    $('#info').text('Hello div');
-    $('#second').text('Second Div');
+    $('#calcSum').on('click',function () {
+      let num1 = $('#num1').val();
+        let num2 = $('#num2').val();
+        let total = Number(num1) + Number(num2);
+        $('#sum').val(total);
+    });
+    $('#calcSubst').on('click',function () {
+        let num1 = $('#numSubstr').val();
+        let num2 = $('#numSubstr1').val();
+        let total = Number(num1) - Number(num2);
+        $('#sumSubst').val(total);
+    });
+    $('#sumMulti').on('click',function () {
+        let num1 = $('#numMulti').val();
+        let num2 = $('#numMulti1').val();
+        let total = Number(num1) * Number(num2);
+        $('#sumMultipli').val(total);
+    })
 </script>
 </body>
 </html>
