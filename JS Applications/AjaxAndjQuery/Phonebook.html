@@ -10,12 +10,16 @@
     <h1>Phonebook</h1>
     <button type="button" id="btnLoad">Load</button>
     <ul id="phonebook">
-    
+    <h1>Create New Contact</h1>
     </ul>
+        Person: <input type="text" id="person"><br>
+        Phone: <input type="text" id="insPhone"><br>
+        <button id="btnCreateContact">Create</button>
 </div>
 <script>
     $(function () {
         $('#btnLoad').click(loadContacts);
+        $('#btnCreateContact').click(createContact);
         function loadContacts() {
             $('#phonebook').empty();
             $.get("https://phonebook-b6683.firebaseio.com/.json")
@@ -44,6 +48,22 @@
                 url:"https://phonebook-b6683.firebaseio.com/" + k + ".json"
             };
             $.ajax(delRequest)
+                .then(loadContacts)
+                .catch(displayError);
+        }
+        function createContact(k) {
+            let person = $('#person').val();
+            let phone = $('#insPhone').val();
+            let newContact = {
+                person,
+                phone
+            };
+            let createRequest = {
+                method: "POST",
+                url:"https://phonebook-b6683.firebaseio.com/" + k + ".json",
+                data:newContact
+            };
+            $.ajax(createRequest)
                 .then(loadContacts)
                 .catch(displayError);
         }
