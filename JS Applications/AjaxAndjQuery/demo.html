@@ -9,14 +9,16 @@
     <div>
         <h2>This is simple demo</h2>
         <button type="button" id="click">Press</button>
+        <button type="button" id="hide">Hide</button>
+        <div id="output">
+        </div>
     </div>
-<div id="output">
 
-</div>
 <script>
     $('#click').on('click',function () {
         $('#output').load('text.html');
-    })
+
+    });
 </script>
 
 </body>

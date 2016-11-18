@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phonebook</title>
+    <script src="../jQuery/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<div id="text">
+    <h1>Phonebook</h1>
+    <button type="button" id="btnLoad">Load</button>
+    <ul id="phonebook">
+    
+    </ul>
+</div>
+<script>
+    $(function () {
+        $('#btnLoad').click(loadContacts);
+        function loadContacts() {
+            $('#phonebook').empty();
+            $.get("https://phonebook-b6683.firebaseio.com/.json")
+                .then(displayContacts)
+                .catch(displayError);
+        }
+        function displayContacts(contacts) {
+            let keys = Object.keys(contacts);
+            for(let k of keys) {
+                let contact = contacts[k];
+                if (contact.name) {
+                    let text = contact.name + ':' + contact.phone;
+                    $('<li>').text(text).appendTo($('#phonebook'))
+                        .append($('<a href="#">[Delete]</a>')).click(function () {
+                            deleteContact(k)
+                    }); //click
+                }
+            }
+        }
+        function displayError() {
+            $('#phonebook').append('<li>Error</li>');
+        }
+        function deleteContact(k) {
+            let delRequest = {
+              method: "DELETE",
+                url:"https://phonebook-b6683.firebaseio.com/" + k + ".json"
+            };
+            $.ajax(delRequest)
+                .then(loadContacts)
+                .catch(displayError);
+        }
+    });
+</script>
+</body>
+</html>
