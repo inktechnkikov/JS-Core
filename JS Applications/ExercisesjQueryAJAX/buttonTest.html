@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>testWithButtons</title>
+    <script src="../jQuery/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+    <button type="button" id="btn1">button1</button>
+    <button type="button" id="btn2">button2</button>
+    <button type="button" id="btn3">button3</button>
+    <button type="button" id="btn4">button4</button>
+    <br>
+    <div id="div1">
+       <textarea>
+       </textarea>
+    </div>
+    <div id="div2">
+       <textarea>
+       </textarea>
+    </div>
+    <div id="div3">
+       <textarea>
+       </textarea>
+    </div>
+    <div id="div4">
+       <textarea>
+       </textarea>
+    </div>
+    <script>
+        $('#btn1').on('click',function () {
+            $('#div1').toggle();
+        });
+        $('#btn2').on('click',function () {
+            $('#div2').toggle();
+        });
+        $('#btn3').on('click',function () {
+            $('#div3').toggle();
+        });
+        $('#btn4').on('click',function () {
+            $('#div4').toggle();
+        });
+    </script>
+</body>
+</html>

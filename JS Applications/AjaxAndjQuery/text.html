@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>text</title>
+    <script src="../jQuery/jquery-3.1.1.min.js"></script>
 </head>
 <body>
-<h1>Voilla!</h1>
-<p>I am a text loaded with AJAX request</p>
+<div id="textBack">
+    <h1>Voilla!</h1>
+    <p>I am a text loaded with AJAX request</p>
+<button type="button" id="backBtn">Back to the future</button>
+</div>
+<script>
+    $('#backBtn').on('click',function () {
+            $('#textBack').load('jQueryLoad.html');
+    })
+</script>
 </body>
 </html>

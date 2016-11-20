@@ -8,15 +8,15 @@
 <body>
     <div id="text">
         <h1>AJAX jQuery.load()</h1>
-        <button type="button" id="load" onclick="load()">Load Title</button>
+        <button type="button" id="loadBtn">Load Title</button>
     </div>
 <script>
-    function load() {
-        $('#text').load("text.html");
-    }
-  // $('#load').on('click',function () {
-  //     $('#text').load("text.html");
-  // })
+ // //  function load() {
+ //       $('#text').load("text.html");
+ //   }
+   $('#loadBtn').on('click',function () {
+      $('#text').load("text.html");
+   })
 </script>
 </body>
 </html>

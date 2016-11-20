@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>simpletest</title>
+    <script src="../jQuery/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+    <button type="button" id="active" onclick="activeButton()">Active</button>
+    <button type="button" id="inactive" onclick="inActiveButton()">Inactive</button>
+    <script>
+       function activeButton() {
+           $('#active').prop('disabled',true);
+           $('#inactive').prop('disabled',false);
+       }
+       function inActiveButton() {
+           $('#active').prop('disabled',false);
+           $('#inactive').prop('disabled',true);
+       }
+    </script>
+</body>
+</html>
