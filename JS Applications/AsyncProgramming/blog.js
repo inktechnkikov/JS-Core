@@ -5,7 +5,7 @@ const kinveyUsername = "peter";
 const kinveyPass = "p";
 const base64auth = btoa(kinveyUsername + ":" + kinveyPass);
 const authHeader = {"Authorization": "Basic " + base64auth};
-   $('#btnLoadPosts').click(loadPostsClicked);
+   $('#btnLoadPosts').on('click',loadPostsClicked);
     function loadPostsClicked() {
         let getPostReq = {
             method: "GET",
@@ -39,7 +39,7 @@ const authHeader = {"Authorization": "Basic " + base64auth};
                 url:serviceUrl + `/comments/?query={"post_id":"${selectedPost}"}`,
                 headers:authHeader
             };
-            $.ajax(getViewPostReq).then(displayPostContent)
+            $.ajax(getViewPostReq).then(displayPostContent).catch(displayPostError)
         }
         function displayPostContent(postContent) {
             $('#postComments').empty();
