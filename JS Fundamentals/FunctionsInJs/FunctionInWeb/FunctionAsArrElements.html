@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>functions in array elements</title>
+    <script src="../jQuery/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+    <button type="button" id="array">Click</button>
+<script>
+    $('#array').on('click',function () {
+        let array = [];
+        array[0] = function () {
+            alert("First element" +  (3 + 3));
+        };
+        array[1] = function () {
+            alert("second element");
+        };
+        array[2] = function () {
+            alert("third element");
+        };
+        array[3] = function () {
+            alert("fourth element");
+        };
+        for(let a in array){
+         // let arrElement = array[a];
+         // arrElement();
+          array[a]();
+        }
+    })
+</script>
+</body>
+</html>
