@@ -10,7 +10,6 @@
 <script>
     $(document).ready(function () {
         $('#nested').on('click',function () {
-            function doProcess() {
                 function dispSum(a,b) {
                     alert("Sum = " + (a+b).toString());
                 }
@@ -27,8 +26,6 @@
                 dispDiff(5,3);
                 mulitplicatio(2,2);
                 mathPow(10,2);
-            }
-            doProcess();
         })
     })
 </script>
