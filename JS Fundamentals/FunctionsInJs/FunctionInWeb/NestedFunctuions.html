@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nested functions</title>
+    <script src="../jQuery/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+    <button type="button" id="calc">Calculate</button>
+    <script>
+        $('#calc').on('click',function () {
+            function doProcess(a,b) {
+                function dispSum() {
+                    alert("Sum = " + (a+b).toString());
+                }
+                function dispdiff() {
+                    alert("Diff = " + (a-b).toString());
+                }
+                function dispMultipl() {
+                    alert("Result = " + (a*b).toString());
+                }
+                dispSum();
+                dispdiff();
+                dispMultipl();
+            }
+            doProcess(10,2);
+        })
+    </script>
+</body>
+</html>

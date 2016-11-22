@@ -16,7 +16,7 @@ DoProcessMultiplication(5,5);
     let b = 15;
     let result = a + b;
     console.log(result);
-    return result;
+  //  return result;
 }());
 (function (a,b) {
    let result = a-b;
