@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nestedfunction2</title>
+    <script src="../jQuery/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+    <button type="button" id="nested">Calculation</button>
+<script>
+    $(document).ready(function () {
+        $('#nested').on('click',function () {
+            function doProcess() {
+                function dispSum(a,b) {
+                    alert("Sum = " + (a+b).toString());
+                }
+                function dispDiff(a,b) {
+                    alert("Difference = " + (a-b).toString());
+                }
+                function mulitplicatio(a,b) {
+                    alert("Multiplication res = " + (a*b).toString());
+                }
+                function mathPow(a,b) {
+                    alert("Pow = " + Math.pow(a,b).toString());
+                }
+                dispSum(5,5);
+                dispDiff(5,3);
+                mulitplicatio(2,2);
+                mathPow(10,2);
+            }
+            doProcess();
+        })
+    })
+</script>
+</body>
+</html>
