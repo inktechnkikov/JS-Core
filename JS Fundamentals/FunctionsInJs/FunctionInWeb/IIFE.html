@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IIFE Functions</title>
+    <script src="../jQuery/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<script>
+  (function () {
+      alert("Welcome to the IIFe functions");
+  })();
+
+  (function (a,b) {
+     alert("Sum = " + (a + b).toString());
+  })(10,30);
+
+</script>
+</body>
+</html>

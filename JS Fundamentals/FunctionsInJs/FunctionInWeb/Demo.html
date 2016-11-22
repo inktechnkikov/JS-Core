@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demos</title>
+    <script src="../jQuery/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<button type="button" id="sum">Sum</button>
+<button type="button" id="msg">Message</button>
+<button type="button" id="totalSum">CalcTotalSum</button>
+<script>
+   $(document).ready(function () {
+       $('#sum').on('click',function () {
+          let result = 10 + 10;
+          alert("Result = " + result.toString());
+           return result;
+       });
+       $('#msg').click(function () {
+          alert("Message has been created");
+       });
+       $('#totalSum').on('click',function () {
+                let sums = [10,20,30,40,50,100];
+           let res = 0;
+            for(let a = 0;a < sums.length;a++){
+                res+=sums[a];
+            }
+            alert("Total sum =" + res);
+       })
+   })
+</script>
+</body>
+</html>
