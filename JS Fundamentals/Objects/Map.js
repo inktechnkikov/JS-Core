@@ -12,4 +12,5 @@ for(let [j,g] of phonebook){
 }
 console.log(phonebook.has('Stamat'));
 console.log(phonebook.get('Stamat'));
+console.log(phonebook.get('Sahil Jai'));
 

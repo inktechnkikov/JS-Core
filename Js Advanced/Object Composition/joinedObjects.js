@@ -18,7 +18,7 @@ let rect2 = {
         rect2.height += h;
     },
     info:function () {
-        console.log(rect2.width+ rect2.height);
+        console.log(rect2.width + rect2.height);
     }
 };
-console.log([rect.printInfo(1,1),rect2.info(2,2)].join(','));
+// console.log([rect.printInfo(1,1),rect2.info(2,2)].join(','));
