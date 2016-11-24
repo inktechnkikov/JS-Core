@@ -151,7 +151,7 @@ function startApplication() {
         $('#errorBox').show();
         setTimeout(function () {
             $('#errorBox').fadeOut()
-        },1500);
+        },3000);
     }
     function createBook() {
 
