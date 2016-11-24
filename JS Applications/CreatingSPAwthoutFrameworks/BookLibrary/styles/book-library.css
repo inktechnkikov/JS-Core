@@ -19,7 +19,7 @@
     background: #BBB;
 }
 main > section {
-   /* display: none; */
+    display: none;
     padding: 20px 5px;
 }
 section h1 {
