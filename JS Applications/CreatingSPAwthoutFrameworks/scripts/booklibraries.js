@@ -89,49 +89,46 @@ function startApplication() {
     function checkFieildForReg() {
         let userField = $('#formRegister input[name=username]').val();
         let passField = $('#formRegister input[name=passwd]').val();
-        if (userField && passField === "") {
-            showError("Username and password are empty");
+         if(userField === ""){
+            showError("Username is empty");
         }
         else if(passField === ""){
             showError("Password is empty");
-        }
-        else if(userField === ""){
-            showError("Username is empty");
         }
         else {
             registerUser();
         }
 
-    function registerUser() {
+        function registerUser() {
 
-        let userData = {
-            username: $('#formRegister input[name=username]').val(),
-            password: $('#formRegister input[name=passwd]').val()
-        };
-        $.ajax({
-            method: "POST",
-            url: kinveyBaseUrl + "user/" + kinveyAppID,
-            data: JSON.stringify(userData),
-            contentType: "application/json",
-            headers: kinveyAuthHeaders,
-            success: registerUserSuccess,
-            error: showAjaxError
-        });
-        function registerUserSuccess(userinfo) {
-            saveAuthInSession(userinfo);
-            showHideMenuLinks();
-            listBooks();
-            showInfo("User has been registered");
+            let userData = {
+                username: $('#formRegister input[name=username]').val(),
+                password: $('#formRegister input[name=passwd]').val()
+            };
+            $.ajax({
+                method: "POST",
+                url: kinveyBaseUrl + "user/" + kinveyAppID,
+                data: JSON.stringify(userData),
+                contentType: "application/json",
+                headers: kinveyAuthHeaders,
+                success: registerUserSuccess,
+                error: showAjaxError
+            });
+            function registerUserSuccess(userinfo) {
+                saveAuthInSession(userinfo);
+                showHideMenuLinks();
+                listBooks();
+                showInfo("User has been registered");
+            }
+
         }
 
+        function saveAuthInSession(userinfo) {
+            sessionStorage.setItem("username", userinfo.username);
+            sessionStorage.setItem("authToken", userinfo._kmd.authtoken);
+            $('#logedInUser').text("Welcome " + userinfo.username);
+        }
     }
-
-    function saveAuthInSession(userinfo) {
-        sessionStorage.setItem("username", userinfo.username);
-        sessionStorage.setItem("authToken", userinfo._kmd.authtoken);
-        $('#logedInUser').text("Welcome " + userinfo.username);
-    }
-}
     function showInfo(message) {
         $('#infoBox').text(message);
         $('#infoBox').show();
@@ -157,7 +154,7 @@ function startApplication() {
         },1500);
     }
     function createBook() {
-        
+
     }
     function editBook() {
 
