@@ -83,7 +83,10 @@ function startApplication() {
     }
 
     function logoutUser() {
-
+        sessionStorage.clear();
+        $('#logedInUser').text("");
+        showView("viewHome");
+        showInfo("You`re logout successful");
     }
 
     function checkFieildForReg() {
