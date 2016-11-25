@@ -115,11 +115,23 @@ function startApplication() {
                         <th>Actions</th>
                         </tr>
                             </table>`);
-              let tr = $('<tr>');
-              tr.appendTo(table);
+              for(let book of books){
+                  let tr = $('<tr>');
+                  displayBooks(tr,book);
+                  tr.appendTo(table);
+              }
                $('#books').append(table);
             }
             showView('viewBooks');
+    }
+    function displayBooks(tr,book) {
+        tr.append(
+            $('<td>').text(book.title),
+            $('<td>').text(book.author),
+            $('<td>').text(book.description),
+            $('<td>').text("")
+
+        );
     }
 
     function showCreatedBooksView() {
