@@ -126,8 +126,12 @@ function startApplication() {
     }
     function displayBooks(tr,book) {
         let links = [];
-        let delLinkForBtn = $('<a href="#">[Delete]<br></a>');
-        let editLink = $('<a href ="#">[Edit]</a>');
+        let delLinkForBtn = $('<a href="#">[Delete]<br></a>').click(function () {
+            deleteBookByID(book._id);
+        });
+        let editLink = $('<a href ="#">[Edit]</a>').click(function () {
+            editBook(book._id);
+        });
         links.push(delLinkForBtn);
         links.push(" ");
         links.push(editLink);
@@ -137,6 +141,19 @@ function startApplication() {
             $('<td>').text(book.description),
             $('<td>').append(links)
         );
+    }
+    function deleteBookByID (bookID) {
+        $.ajax({
+            method:"DELETE",
+            url:kinveyBaseUrl + "appdata/" + kinveyAppID + "/books/" + bookID,
+            headers:getKinveyAuthHeaders(),
+            success:deleteBookSuccess,
+            error:showAjaxError,
+        });
+        function deleteBookSuccess() {
+            showInfo("Book deleted");
+            listBooks();
+        }
     }
 
     function showCreatedBooksView() {
@@ -193,6 +210,7 @@ function startApplication() {
     function saveAuthInSession(userinfo) {
         sessionStorage.setItem("username", userinfo.username);
         sessionStorage.setItem("authToken", userinfo._kmd.authtoken);
+        sessionStorage.setItem("userID", userinfo._id);
         $('#logedInUser').text("Welcome " + userinfo.username);
     }
     function showInfo(message) {
@@ -238,7 +256,20 @@ function startApplication() {
             listBooks();
         }
     }
-    function editBook() {
-
+    function editBook(bookID) {
+            $.ajax({
+                method:"GET",
+                url:kinveyBookUrl = kinveyBaseUrl + "appdata/" + kinveyAppID + "/books/" + bookID,
+                headers:getKinveyAuthHeaders(),
+                success:bookForEditSuccess,
+                error:showError
+            });
+            function bookForEditSuccess(book) {
+                $('#formEditBook input[name=id]').val(book._id);
+                $('#formEditBook input[name=title]').val(book.title);
+                $('#formEditBook input[name=author]').val(book.author);
+                $('#formEditBook textarea[name=descr]').val(book.description);
+                showView('viewEditBook');
+            }
     }
 }
