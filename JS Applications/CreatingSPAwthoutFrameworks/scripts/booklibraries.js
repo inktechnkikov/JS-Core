@@ -91,9 +91,26 @@ function startApplication() {
         showView('viewRegister');
         $('#formRegister').trigger('reset');
     }
+    function getKinveyAuthHeaders() {
+        return {
+            "Authorization": "Kinvey " + sessionStorage.getItem("authToken")
+        }
+    }
 
     function listBooks() {
+            $('#books').empty();
+            showView('viewBooks');
 
+            $.ajax({
+                method:"GET",
+                url:kinveyBaseUrl + "appdata/" + kinveyAppID + "/books",
+                headers:getKinveyAuthHeaders(),
+                success:loadBookssuccess,
+                error:showAjaxError,
+            });
+            function loadBookssuccess(books) {
+                alert("Books is here");
+            }
     }
 
     function showCreatedBooksView() {
