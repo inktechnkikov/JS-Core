@@ -98,9 +98,7 @@ function startApplication() {
     }
 
     function listBooks() {
-            $('#books').empty();
-            showView('viewBooks');
-
+           $('#books').empty();
             $.ajax({
                 method:"GET",
                 url:kinveyBaseUrl + "appdata/" + kinveyAppID + "/books",
@@ -109,8 +107,19 @@ function startApplication() {
                 error:showAjaxError,
             });
             function loadBookssuccess(books) {
-                alert("Books is here");
+              let table = $(`<table>
+                        <tr>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Author</th>
+                        <th>Actions</th>
+                        </tr>
+                            </table>`);
+              let tr = $('<tr>');
+              tr.appendTo(table);
+               $('#books').append(table);
             }
+            showView('viewBooks');
     }
 
     function showCreatedBooksView() {
