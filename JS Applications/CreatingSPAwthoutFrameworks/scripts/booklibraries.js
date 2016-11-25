@@ -18,7 +18,7 @@ function startApplication() {
     $('#linkCreateBooks').click(showCreatedBooksView);
     $('#linkLogout').click(logoutUser);
 
-    $('#btnLoginUser').click(loginUser());
+    $('#btnLoginUser').click(loginUser);
     $('#btnRegUser').click(checkFieildForReg);
     $('#btnCreateBook').click(createBook);
     $('#btnEditBook').click(editBook);
@@ -60,6 +60,25 @@ function startApplication() {
     }
 
     function loginUser() {
+        let userLoginData = {
+          username: $('#formLogin input[name=username]').val(),
+            password: $('#formLogin input[name=passwd]').val()
+        };
+        $.ajax({
+            method:"POST",
+            url:kinveyBaseUrl + "user/" + kinveyAppID + '/login',
+            data: JSON.stringify(userLoginData),
+            contentType: "application/json",
+            headers:kinveyAuthHeaders,
+            success:loginUserSuccess,
+            error:showAjaxError
+        });
+        function loginUserSuccess(userinfo) {
+            saveAuthInSession(userinfo);
+            showHideMenuLinks();
+            listBooks();
+            showInfo("Login successful");
+        }
 
     }
 
@@ -127,11 +146,11 @@ function startApplication() {
 
         }
 
-        function saveAuthInSession(userinfo) {
-            sessionStorage.setItem("username", userinfo.username);
-            sessionStorage.setItem("authToken", userinfo._kmd.authtoken);
-            $('#logedInUser').text("Welcome " + userinfo.username);
-        }
+    }
+    function saveAuthInSession(userinfo) {
+        sessionStorage.setItem("username", userinfo.username);
+        sessionStorage.setItem("authToken", userinfo._kmd.authtoken);
+        $('#logedInUser').text("Welcome " + userinfo.username);
     }
     function showInfo(message) {
         $('#infoBox').text(message);
