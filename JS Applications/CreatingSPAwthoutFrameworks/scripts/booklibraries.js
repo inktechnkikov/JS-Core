@@ -110,8 +110,8 @@ function startApplication() {
               let table = $(`<table>
                         <tr>
                         <th>Title</th>
-                        <th>Description</th>
                         <th>Author</th>
+                        <th>Description</th>
                         <th>Actions</th>
                         </tr>
                             </table>`);
@@ -215,7 +215,23 @@ function startApplication() {
         },3000);
     }
     function createBook() {
-
+        let bookData = {
+          title: $('#formCreateBook input[name=title]').val(),
+            author: $('#formCreateBook input[name=author]').val(),
+            description: $('#formCreateBook textarea[name=descr]').val()
+        };
+        $.ajax({
+            method:"POST",
+            url:kinveyBaseUrl + "appdata/" + kinveyAppID + "/books",
+            headers:getKinveyAuthHeaders(),
+            data:bookData,
+            success:createBookSuccess,
+            error:showAjaxError,
+        });
+        function createBookSuccess() {
+            showInfo("book created");
+            listBooks();
+        }
     }
     function editBook() {
 
