@@ -92,7 +92,7 @@ function startApplication() {
     function checkFieildForReg() {
         let userField = $('#formRegister input[name=username]').val();
         let passField = $('#formRegister input[name=passwd]').val();
-         if(userField === ""){
+        if(userField === ""){
             showError("Username is empty");
         }
         else if(passField === ""){
