@@ -125,12 +125,17 @@ function startApplication() {
             showView('viewBooks');
     }
     function displayBooks(tr,book) {
+        let links = [];
+        let delLinkForBtn = $('<a href="#">[Delete]<br></a>');
+        let editLink = $('<a href ="#">[Edit]</a>');
+        links.push(delLinkForBtn);
+        links.push(" ");
+        links.push(editLink);
         tr.append(
             $('<td>').text(book.title),
             $('<td>').text(book.author),
             $('<td>').text(book.description),
-            $('<td>').text("")
-
+            $('<td>').append(links)
         );
     }
 
