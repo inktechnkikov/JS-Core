@@ -87,6 +87,7 @@ function startApplication() {
         $('#logedInUser').text("");
         showView("viewHome");
         showInfo("You`re logout successful");
+        showHideMenuLinks();
     }
 
     function checkFieildForReg() {
