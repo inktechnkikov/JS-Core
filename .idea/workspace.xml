@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS Applications/ReactJS/reactapp/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="85">
+              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -43,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Header.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS Applications/ReactJS/reactapp/src/Header.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -373,12 +373,12 @@
       <workItem from="1480068009976" duration="301000" />
       <workItem from="1480151005651" duration="3457000" />
       <workItem from="1480159973194" duration="7539000" />
-      <workItem from="1480171744531" duration="3241000" />
+      <workItem from="1480171744531" duration="3993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14538000" />
+    <option name="totallyTimeSpent" value="15290000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,7 +390,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1320" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18798752" sideWeight="0.7542579" order="0" side_tool="false" content_ui="combo" />
@@ -572,16 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS Applications/ReactJS/reactapp/src/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS Applications/ReactJS/reactapp/src/Header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -592,8 +582,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JS Applications/ReactJS/reactapp/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="85">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Applications/ReactJS/reactapp/src/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
