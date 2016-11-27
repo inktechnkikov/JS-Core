@@ -10,7 +10,9 @@ class App extends Component {
         <p className="App-intro">
          Hello ReactJS
         </p>
+          <div>
           <Footer/>
+          </div>
       </div>
     );
   }

@@ -21,6 +21,6 @@ function getPersonsFromArr() {
     ];
     return persons;
 }
-let p = new person("Gerogi","Avramov",28,"georgie@data.bg");
+let p = new Person("Gerogi","Avramov",28,"georgie@data.bg");
 console.log(p.toString());
 console.log(getPersonsFromArr());

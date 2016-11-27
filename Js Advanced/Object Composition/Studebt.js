@@ -4,5 +4,6 @@ let students = {
     age:22,
     location:{zipcode:4150,city:'Plovdiv'}
 };
+
 console.log(students);
-console.log(students.location.city);
+console.log(students.location);
