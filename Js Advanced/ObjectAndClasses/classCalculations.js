@@ -21,5 +21,11 @@ class Calculations{
 	}
 
 }
-let simpleCalc = new Calculations(10,5,2);
-console.log(simpleCalc.calcAreaTrapezoid());
+let rectPerimet = new Calculations(5,4);
+let rectArea = new Calculations(6,3);
+let diagonalsLenght = new Calculations(12,5);
+let trapezoidArea = new Calculations(6,4,3);
+console.log(`Rectangle Perimeter: ${rectPerimet.calcRectPerimeter()}`);
+console.log(`Rectangle Area: ${rectArea.calcRectArea()}`);
+console.log(`Rectangle Diagonals: ${diagonalsLenght.calcLengthOfDiagonals()}`);
+console.log(`Trapezoid Area: ${trapezoidArea.calcAreaTrapezoid()}`);
