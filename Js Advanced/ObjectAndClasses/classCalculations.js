@@ -1,13 +1,13 @@
 class Calculations{
-	constructor(width,height,color){
-		[this.width,this.height,this.color] = [width,height,color]; 
+	constructor(width,height,high){
+		[this.width,this.height,this.high] = [width,height,high]; 
 	}
 	calcRectPerimeter(){
 		let perimeter = 2 * (this.width + this.height);
 		return perimeter;
 	}
 	calcRectArea(){
-		let area = this.width * this.height + " " + this.color;
+		let area = this.width * this.height;
 		return area;
 	}
 	calcLengthOfDiagonals(){
@@ -15,8 +15,11 @@ class Calculations{
 			let res = Math.sqrt(diagonals);
 			return res;
 	}
+	calcAreaTrapezoid(){
+		let areaOfTrapezoid = (this.width + this.height) / 2 * this.high;
+		return areaOfTrapezoid;
+	}
+
 }
-let simpleCalc = new Calculations(5,12,"blue");
-console.log(simpleCalc.calcRectPerimeter());
-console.log(simpleCalc.calcRectArea());
-console.log(simpleCalc.calcLengthOfDiagonals());
+let simpleCalc = new Calculations(10,5,2);
+console.log(simpleCalc.calcAreaTrapezoid());
