@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>react</title>
+  	<script src="https://unpkg.com/react/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone"></script>
+</head>
+<body>
+	<div id="app">
+		<script type="text/babel">
+			let age = 20;
+			let arr = [10,20,30];
+			let num = <div>
+					<p>Age:{age}</p>
+					<p>Age:{age}</p>
+					<ul>{
+						arr.map(x=><li>{x}</li>)
+					}
+					</ul>
+					</div>;
+			ReactDOM.render(
+				num, document.getElementById('app'));
+		</script>
+	</div>
+</body>
+</html>
