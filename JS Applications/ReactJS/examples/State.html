@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>State</title>
+    <script src="https://unpkg.com/react/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone"></script>
+</head>
+<body>
+<div id="box">
+<script type="text/babel">
+    let Counter = React.createClass({
+        getInitialState:function () {
+          return {
+              count:Number(this.props.start),
+              styles:{color:"red"}
+          };
+        },
+        increase:function () {
+          this.setState({
+              count:this.state.count+1,
+              styles:{color:"green"}
+          });
+        },
+        decrease:function () {
+            this.setState({
+                count:this.state.count-1,
+                styles:{color:"blue"}
+            });
+        },
+
+        render:function () {
+            return <div>Count:
+                <b style={this.state.styles}>{this.state.count}
+                </b>
+                <button type="button" onClick={this.increase}>+</button>
+                <button type="button" onClick={this.decrease}>-</button>
+            </div>;
+    }
+    });
+    ReactDOM.render(
+        <div>
+        <Counter start = "5"/>
+            <br></br>
+            <Counter start = "20"/>
+                <br></br>
+            <Counter start = "15"/>
+                    <br></br>
+        </div>,
+        document.getElementById('box')
+    );
+</script>
+</div>
+</body>
+</html>

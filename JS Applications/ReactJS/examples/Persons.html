@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Persons</title>
+    <script src="https://unpkg.com/react/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone"></script>
+</head>
+<body>
+    <div id="app">
+    <script type="text/babel">
+    class Person extends React.Component{
+        render(){
+            return <p>i am Person</p>;
+        }
+    }
+    let persons = <div>
+        <Person/>
+        <Person/>
+        <Person/>
+    </div>;
+    ReactDOM.render(persons,document.getElementById('app'));
+    </script>
+    </div>
+</body>
+</html>
