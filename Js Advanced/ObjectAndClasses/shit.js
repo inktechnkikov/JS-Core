@@ -1,13 +1,11 @@
-class areaTrap{
-	constructor(base1,base2,high){
-		this.base1 = base1;
-		this.base2 = base2;
-		this.high = high;
-	}
-	calcRes(){
-		let info = (this.base1 + this.base2) / 2 * this.high;
-		return info;
-	}
+class Point{
+    constructor(x,y){
+        this.x = x;
+        this.y = y;
+    }
+    showPoint(){
+        return `Px:${this.x} Py:${this.y}`;
+    }
 }
-let tr = new areaTrap(6,4,3);
-console.log(tr.calcRes());
+let p = new Point(25,8);
+console.log(p.showPoint());
