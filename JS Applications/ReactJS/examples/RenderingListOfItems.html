@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List Item</title>
+    <script src="https://unpkg.com/react/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone"></script>
+</head>
+<body>
+   <div id="content">
+       <script type="text/babel">
+           let List = React.createClass({
+                render:function () {
+                    let items = [];
+                    let count = 0;
+                    for(let item of this.props.items){
+                        items.push(<li key={++count}>{item}</li>)
+                    }
+                    return <ul>{items}</ul>;
+                }
+           });
+           ReactDOM.render(
+               <List items = {['Sofia','Plovdiv','Varna']}/>,
+               document.getElementById('content')
+           );
+       </script>
+   </div>
+</body>
+</html>
