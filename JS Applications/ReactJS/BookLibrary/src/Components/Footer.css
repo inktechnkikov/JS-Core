@@ -1,5 +1,8 @@
 .footer-view{
- background: #ddd;
+    text-align: center;
+    background: #eee;
     font-size: 0.8em;
     color: #555;
+    padding: 5px;
+    font-size: 0.8em;
 }

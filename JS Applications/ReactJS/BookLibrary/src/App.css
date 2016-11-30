@@ -1,3 +1,23 @@
-.App {
 
+#infobox,#errorbox,#loadbox{
+  width: 80%;
+  margin:10px auto;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border-radius: 3px;
+  display: none;
+  cursor: pointer;
+}
+#loadbox {
+  background: #7CB3E9;
+}
+#infobox {
+  background: #393;
+}
+#errorbox {
+ background: #F50;
+}
+#main{
+    margin: 10px 20px 10px;
 }
