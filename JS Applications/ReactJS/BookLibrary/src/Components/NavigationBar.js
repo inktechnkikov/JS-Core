@@ -5,7 +5,9 @@ export default class NavigationBar extends Component{
     render(){
         return(
             <div className="navigation-bar">
-                im the navBar
+                <a href="#">Home</a>
+                <a href="#">Login</a>
+                <a href="#">Register</a>
             </div>
         );
     }

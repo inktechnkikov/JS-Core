@@ -3,6 +3,7 @@ import './App.css';
 import $ from 'jquery';
 import NavigationBar from './Components/NavigationBar';
 import Footer from './Components/Footer';
+
 class App extends Component {
   render() {
     return (
