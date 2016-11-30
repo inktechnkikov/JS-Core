@@ -18,6 +18,7 @@ export default class NavigationBar extends Component{
                     <a href="#" onClick={this.props.booksClicked}>Books</a>
                     <a href="#" onClick={this.props.createBookClicked}>Create Book</a>
                     <a href="#" onClick={this.props.logoutClicked}>Logout</a>
+                    <span className="loggedInUser">Welcome, {this.props.username}</span>
                 </div>
             );
     }

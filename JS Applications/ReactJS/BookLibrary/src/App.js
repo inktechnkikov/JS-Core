@@ -26,6 +26,7 @@ export default class App extends Component {
                 $("#loadbox").hide()
             }
         });
+        this.showHomeView();
         //Atach a global Ajax error evnt hadler
             $(document).ajaxError(
                 this.handleAjaxError.bind(this)
@@ -87,6 +88,7 @@ export default class App extends Component {
   }
   showLoginView(){
       this.showView(<Login/>);
+      this.setState({username:"sfdf"});
   }
   showRegisterView(){
     this.showView(<Register/>);
@@ -98,7 +100,9 @@ export default class App extends Component {
 
   }
   logout(){
-
+    this.setState(
+        {username: null}
+    );
   }
  }
 
