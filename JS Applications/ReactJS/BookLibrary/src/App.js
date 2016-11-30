@@ -11,7 +11,7 @@ class App extends Component {
         <NavigationBar/>
           <div id="error-box">Error messgaes</div>
           <div id="info-box">Info messages</div>
-          <div id="load-box">Load messges</div>x
+          <div id="load-box">Load messges</div>
         </header>
       <div id="main">
         App view
