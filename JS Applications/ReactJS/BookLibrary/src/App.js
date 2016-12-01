@@ -84,7 +84,7 @@ export default class App extends Component {
         $("#errorbox").hide();
   }
   showHomeView(){
-      this.showView(<Home/>);
+      this.showView(<Home username={this.state.username}/>);
   }
   showLoginView(){
       this.showView(<Login/>);
