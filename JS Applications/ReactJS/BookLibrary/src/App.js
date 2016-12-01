@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom';
 import Home from './Views/Home';
 import Login from './Views/Login';
 import Register from './Views/Register';
-
+import KinveyRequester from './KinveyRequester';
 export default class App extends Component {
     constructor(props){
         super(props);
@@ -91,7 +91,12 @@ export default class App extends Component {
       this.setState({username:"sfdf"});
   }
   login(username,password){
-      alert("user: " + username + " " + "pass: " + password);
+     KinveyRequester.loginUser(username,password)
+         .then(loginSucces);
+     
+     function loginSucces() {
+         this.showInfo("Login Sucessful");
+     }
   }
   showRegisterView(){
     this.showView(<Register/>);
