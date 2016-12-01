@@ -87,8 +87,11 @@ export default class App extends Component {
       this.showView(<Home username={this.state.username}/>);
   }
   showLoginView(){
-      this.showView(<Login/>);
+      this.showView(<Login onsubmit ={this.login}/>);
       this.setState({username:"sfdf"});
+  }
+  login(username,password){
+      alert("user: " + username + " " + "pass: " + password);
   }
   showRegisterView(){
     this.showView(<Register/>);
