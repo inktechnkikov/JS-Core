@@ -67,7 +67,7 @@ export default class App extends Component {
             />
           <div id="errorbox">Error messgaes</div>
           <div id="infobox">Info messages</div>
-          <div id="loadbox">Load messges</div>
+          <div id="loadbox">Loading</div>
         </header>
       <div id="main">
         App view
@@ -88,14 +88,14 @@ export default class App extends Component {
   }
   showLoginView(){
       this.showView(<Login onsubmit ={this.login}/>);
-      this.setState({username:"sfdf"});
+     // this.setState({username: });
   }
   login(username,password){
      KinveyRequester.loginUser(username,password)
-         .then(loginSucces);
+         .then(loginSucces.bind(this));
      
      function loginSucces() {
-         this.showInfo("Login Sucessful");
+         this.showInfo("Login successful");
      }
   }
   showRegisterView(){
