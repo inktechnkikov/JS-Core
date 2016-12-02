@@ -1,6 +1,6 @@
 class Calculations{
 	constructor(width,height,high){
-		[this.width,this.height,this.high] = [width,height,high]; 
+		[this.width,this.height,this.high] = [width,height,high];
 	}
 	calcRectPerimeter(){
 		let perimeter = 2 * (this.width + this.height);

@@ -21,4 +21,3 @@ let rectDiagonals = new RectPlusData(5,5);
 console.log(rectArea.calcArea());
 console.log(rectPerimeter.calcPerimeter());
 console.log(rectDiagonals.calcDiagonals());
-
