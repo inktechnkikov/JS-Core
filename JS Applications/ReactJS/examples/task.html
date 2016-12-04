@@ -9,6 +9,7 @@
 </head>
 <body>
     <div id="app"> </div>
+    <div id="calc"> </div>
     <script type="text/babel">
         function sayHello(name) {
             return <div>Hello,{name}</div>;
@@ -17,6 +18,17 @@
             sayHello('Pesho'),
             document.getElementById('app')
         );
+        function calculation(a,b) {
+           a = 2;
+           b = 3;
+           let result = a * b;
+            return <div> Result = {result}</div>;
+        }
+        ReactDOM.render(
+            calculation(),
+            document.getElementById('calc')
+        );
+
     </script>
 </body>
 </html>
