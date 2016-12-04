@@ -18,6 +18,7 @@ DoProcessMultiplication(5,5);
     console.log(result);
   //  return result;
 }());
+
 (function (a,b) {
    let result = a-b;
    console.log(result);

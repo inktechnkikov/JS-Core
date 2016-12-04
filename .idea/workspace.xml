@@ -24,38 +24,28 @@
       <file leaf-file-name="Greeting.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS Applications/ReactJS/examples/Greeting.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            <state relative-caret-position="391">
+              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS Applications/ReactJS/examples/task.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Persons.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Persons.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS Applications/ReactJS/examples/Persons.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            <state relative-caret-position="272">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="State.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="State.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS Applications/ReactJS/examples/State.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
-              <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="765">
+              <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -89,8 +79,9 @@
         <option value="$PROJECT_DIR$/JS Applications/ReactJS/reactapp/src/App.js" />
         <option value="$PROJECT_DIR$/Js Advanced/ObjectAndClasses/shit.js" />
         <option value="$PROJECT_DIR$/JS Applications/ReactJS/examples/Animals.html" />
-        <option value="$PROJECT_DIR$/JS Applications/ReactJS/examples/Persons.html" />
         <option value="$PROJECT_DIR$/JS Applications/ReactJS/examples/task.html" />
+        <option value="$PROJECT_DIR$/JS Applications/ReactJS/examples/Persons.html" />
+        <option value="$PROJECT_DIR$/JS Applications/ReactJS/examples/Greeting.html" />
       </list>
     </option>
   </component>
@@ -353,12 +344,12 @@
       <workItem from="1480284492706" duration="206000" />
       <workItem from="1480322212324" duration="8000" />
       <workItem from="1480693321997" duration="4042000" />
-      <workItem from="1480865553666" duration="2734000" />
+      <workItem from="1480865553666" duration="6122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23365000" />
+    <option name="totallyTimeSpent" value="26753000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -370,7 +361,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1320" height="772" extended-state="1" />
+    <frame x="-8" y="-8" width="1320" height="772" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21684867" sideWeight="0.71288747" order="0" side_tool="false" content_ui="combo" />
@@ -710,14 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS Applications/ReactJS/examples/Greeting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS Applications/ReactJS/examples/task.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -726,18 +709,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS Applications/ReactJS/examples/Persons.html">
+    <entry file="file://$PROJECT_DIR$/JS Applications/ReactJS/examples/State.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        <state relative-caret-position="765">
+          <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS Applications/ReactJS/examples/State.html">
+    <entry file="file://$PROJECT_DIR$/JS Applications/ReactJS/examples/Greeting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="391">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Applications/ReactJS/examples/Persons.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding />
         </state>
       </provider>
