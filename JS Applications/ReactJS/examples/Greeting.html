@@ -12,11 +12,15 @@
         <script type="text/babel">
             let Greeting = React.createClass({
                 render:function() {
-                    return <div>Hello,{this.props.name}</div>;
+                    return <div>Hello, {this.props.name}</div>;
                 }
             });
             ReactDOM.render(
-                <Greeting name = "Stamat"/>,
+                <div>
+                    <Greeting name = "Stamat"/>
+                    <Greeting name = "Pesho"/>
+                    <Greeting name = "Nikolay"/>
+                </div>,
                 document.getElementById('container')
             );
         </script>

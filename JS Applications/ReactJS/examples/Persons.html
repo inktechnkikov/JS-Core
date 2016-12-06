@@ -12,15 +12,15 @@
     <script type="text/babel">
     class Person extends React.Component{
         render(){
-            return <p>i am Person</p>;
+            return <p>i am Person with name: {this.props.name}</p>;
         }
     }
-    let persons = <div>
-        <Person/>
-        <Person/>
-        <Person/>
-    </div>;
-    ReactDOM.render(persons,document.getElementById('appPersons'));
+    ReactDOM.render(
+            <div>
+                <Person name = "Petya"/>
+                <Person name = "Galya"/>
+            </div>
+        ,document.getElementById('appPersons'));
     </script>
     </div>
 </body>
