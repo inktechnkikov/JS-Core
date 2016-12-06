@@ -13,20 +13,27 @@
         class Navigation extends React.Component {
             render(){
                 return <div>
-                    <a href="#">Home</a>
-                    <a href="#">Login</a>
-                    <a href="#">Register</a>
+                    <a href="#">Home </a>
+                    <a href="#">Login </a>
+                    <a href="#">Register </a>
                 </div>;
             }
         }
-
-        class Human extends React.Component{
-            render(){
+        let Human = React.createClass({
+            render:function () {
                 return <div>
-                    Hello {this.props.name}, <p>you are {this.props.age} </p>
+                    Hello {this.props.name} youre age is {this.props.age}
                 </div>;
             }
-        }
+        });
+        let Town = React.createClass({
+            render:function () {
+                return <div>
+                    <h2>Town</h2> {this.props.nameOfTown} with zip-code {this.props.zipcode} has population:
+                    {this.props.population}
+                </div>;
+            }
+        });
         class Footer extends React.Component{
             render(){
                 return <div id="footer">
@@ -38,6 +45,8 @@
             <Navigation/>
             <Human name = "Haho" age = "25"/>
             <Human name = "Gosho" age = "22"/>
+            <Town nameOfTown = "Plovdiv" zipcode = "4425" population = "65658"/>
+            <Town nameOfTown = "Sofia" zipcode = "4445" population = "7878777"/>
             <Footer/>
         </div>;
         ReactDOM.render(app,document.getElementById('container'));
