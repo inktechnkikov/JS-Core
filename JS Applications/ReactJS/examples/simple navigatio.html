@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>simple nav</title>
+    <script src="https://unpkg.com/react/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone"></script>
+</head>
+<body>
+<div id="container"></div>
+    <script type="text/babel">
+        class Navigation extends React.Component {
+            render(){
+                return <div>
+                    <a href="#">Home</a>
+                    <a href="#">Login</a>
+                    <a href="#">Register</a>
+                </div>;
+            }
+        }
+
+        class Human extends React.Component{
+            render(){
+                return <div>
+                    Hello {this.props.name}, <p>you are {this.props.age} </p>
+                </div>;
+            }
+        }
+        class Footer extends React.Component{
+            render(){
+                return <div id="footer">
+                    (c) simple navigation
+                </div>;
+            }
+        }
+        let app = <div>
+            <Navigation/>
+            <Human name = "Haho" age = "25"/>
+            <Human name = "Gosho" age = "22"/>
+            <Footer/>
+        </div>;
+        ReactDOM.render(app,document.getElementById('container'));
+    </script>
+</body>
+</html>

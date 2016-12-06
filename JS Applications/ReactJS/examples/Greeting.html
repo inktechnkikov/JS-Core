@@ -12,14 +12,14 @@
         <script type="text/babel">
             let Greeting = React.createClass({
                 render:function() {
-                    return <div>Hello, {this.props.name}</div>;
+                    return <div>Hello, {this.props.name} youre age is {this.props.age}</div>;
                 }
             });
             ReactDOM.render(
                 <div>
-                    <Greeting name = "Stamat"/>
-                    <Greeting name = "Pesho"/>
-                    <Greeting name = "Nikolay"/>
+                    <Greeting name = "Stamat" age = "29"/>
+                    <Greeting name = "Pesho" age = "15"/>
+                    <Greeting name = "Nikolay" age = "30"/>
                 </div>,
                 document.getElementById('container')
             );
