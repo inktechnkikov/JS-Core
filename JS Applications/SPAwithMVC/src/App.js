@@ -6,8 +6,8 @@ let Header = React.createClass({
    render:function () {
        return <div>
            <h1>Header</h1>
-           <Link to="/catalog">Catalog</Link>
-           <Link to="/about">About</Link>
+           <Link to="/catalog" activeClassName="active">Catalog</Link>
+           <Link to="/about" activeClassName="active">About</Link>
        </div>
    } 
 });
