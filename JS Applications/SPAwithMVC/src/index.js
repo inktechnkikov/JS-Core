@@ -15,10 +15,11 @@ let About = React.createClass({
    }
 });
 ReactDOM.render(
- <Router history={hashHistory}>
-   <Route path="/" component={App}/>
-     <Route path="catalog" component={Catalog}/>
-     <Route path="about" component={About}/>
- </Router>,
-  document.getElementById('root')
+    <Router history={hashHistory}>
+        <Route path="/" component={App}>
+        <Route path="catalog" component={Catalog}/>
+        <Route path="about" component={About}/>
+            </Route>
+        </Router>,
+    document.getElementById('root')
 );
