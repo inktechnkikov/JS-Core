@@ -2,11 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
-import {Router, Route, hashHistory, IndexRoute} from 'react-router';
+import {Router, Route, browserHistory, IndexRoute} from 'react-router';
 
 let Catalog = React.createClass({
     render:function () {
-       return <div>Catalog Page</div>;
+       return (
+           <div>
+               <h1>Catalog Page</h1>
+               <div>{this.props.params.category}</div>
+               <div>{this.props.params.productId}</div>
+
+           </div>
+       )
     }
 });
 let About = React.createClass({
@@ -20,10 +27,12 @@ let Home = React.createClass({
    }
 });
 ReactDOM.render(
-    <Router history={hashHistory}>
+    <Router history={browserHistory}>
         <Route path="/" component={App}>
             <IndexRoute component={Home}/>
-        <Route path="catalog" component={Catalog}/>
+        <Route path="catalog" component={Catalog}>
+            <Route path="/:category/:productId" component={Catalog}/>
+        </Route>
         <Route path="about" component={About}/>
             </Route>
         </Router>,
