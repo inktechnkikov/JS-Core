@@ -1,22 +1,19 @@
 import React, { Component } from 'react';
-import './App.css';
+import Header from './components/common/Header';
 import {Link} from 'react-router';
 
-let Header = React.createClass({
-   render:function () {
-       return <div>
-           <h1>Header</h1>
-           <Link to="/catalog" activeClassName="active">Catalog</Link>
-           <Link to="/about" activeClassName="active">About</Link>
-       </div>
-   } 
-});
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header/>
+        <Header>
+          <Link to="/">Home</Link>
+          <Link to="/catalog">Catalog</Link>
+          <Link to="/about">About</Link>
+          <Link to="/register">Register</Link>
+        </Header>
           {this.props.children}
       </div>
     );
