@@ -7,12 +7,12 @@ import {Link} from 'react-router';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="container">
         <Header>
-          <Link to="/">Home</Link>
-          <Link to="/catalog">Catalog</Link>
-          <Link to="/about">About</Link>
-          <Link to="/register">Register</Link>
+          <Link to="/" className="btn btn-default">Home</Link>
+          <Link to="/catalog" className="btn btn-default">Catalog</Link>
+          <Link to="/about" className="btn btn-default">About</Link>
+          <Link to="/register" className="btn btn-default">Register</Link>
         </Header>
           {this.props.children}
       </div>
