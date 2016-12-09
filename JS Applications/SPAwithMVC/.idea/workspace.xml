@@ -36,8 +36,8 @@
       <file leaf-file-name="RegisterForm.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/register/RegisterForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="181">
+              <caret line="57" column="22" lean-forward="true" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -103,8 +103,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="39" />
-    <option name="y" value="30" />
+    <option name="x" value="-93" />
+    <option name="y" value="43" />
     <option name="width" value="1320" />
     <option name="height" value="772" />
   </component>
@@ -315,15 +315,15 @@
       <workItem from="1481202989818" duration="9875000" />
       <workItem from="1481287388459" duration="333000" />
       <workItem from="1481287959908" duration="229000" />
-      <workItem from="1481289046820" duration="7189000" />
+      <workItem from="1481289046820" duration="8830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20536000" />
+    <option name="totallyTimeSpent" value="22177000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="30" width="1320" height="772" extended-state="0" />
+    <frame x="-93" y="43" width="1320" height="772" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960998" sideWeight="0.7191283" order="0" side_tool="false" content_ui="combo" />
@@ -497,8 +497,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/register/RegisterForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="181">
+          <caret line="57" column="22" lean-forward="true" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
           <folding />
         </state>
       </provider>
