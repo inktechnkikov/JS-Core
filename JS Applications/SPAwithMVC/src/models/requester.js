@@ -1,17 +1,18 @@
+import $ from 'jquery';
 const kinveyBaseUrl = "https://baas.kinvey.com/";
 const kinveyAppId = "kid_HkcMkNOQl";
 const kinveyAppSecret = "17329266509e46aea6bb7ad5f93e6c97";
 
 function makeHeader(auth) {
     let header = {
-        "Athotization": ""
+        "Authorization": ""
     };
     switch (auth){
         case "basic":
-            header["Athotization"] = "Basic " + btoa(kinveyAppId + ":" + kinveyAppSecret);
+            header["Authorization"] = "Basic " + btoa(kinveyAppId + ":" + kinveyAppSecret);
             break;
         case "kinvey":
-            header["Athotization"] = "Kinvey " + sessionStorage.getItem("authToken");
+            header["Authorization"] = "Kinvey " + sessionStorage.getItem("authToken");
             break;
     }
     return header;
@@ -22,10 +23,10 @@ function get(module, url, auth) {
     let header = makeHeader(auth);
     switch (auth){
         case "basic":
-            header["Athotization"] = "Basic " + btoa(kinveyAppId + ":" + kinveyAppSecret);
+            header["Authorization"] = "Basic " + btoa(kinveyAppId + ":" + kinveyAppSecret);
             break;
         case "kinvey":
-            header["Athotization"] = "Kinvey " + sessionStorage.getItem("authToken");
+            header["Authorization"] = "Kinvey " + sessionStorage.getItem("authToken");
             break;
     }
     return $.ajax({
